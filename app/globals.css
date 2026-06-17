@@ -251,7 +251,10 @@ article.themed { min-height: 0; }
 .cv > .cv__head:first-child { margin-top: 0; }
 
 @media (max-width: 640px) {
-  .cv__row { grid-template-columns: 1fr; gap: 0.15rem; }
+  /* Jahr links, Text direkt daneben; kleinere Zahlen, engere Zeilen */
+  .cv__row { grid-template-columns: 3.6rem 1fr; gap: 0.1rem 0.6rem; padding: 0.08rem 0; }
+  .cv__date { font-size: 0.68rem; line-height: 1.2; }
+  .cv__text, .cv__text .md p { font-size: 0.85rem; line-height: 1.35; }
 }
 
 /* ===== Ergänzungen: Hero zweizeilig, Hover-Titel, Urheber, Presse zweispaltig ===== */
