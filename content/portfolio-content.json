@@ -51,6 +51,14 @@
           "videoUrl": "https://vimeo.com/323264304?fl=pl&fe=cm"
         },
         {
+          "slug": "ein_fest",
+          "title": "Ein Fest",
+          "text": "Video · 2:50 Minuten · 2019\n\nRauch, vermeintliche Schüsse in der Nacht, Feuer. Menschen, die zu oder von etwas weglaufen. Menschen, die stehen bleiben und filmen.\n\nDie Videoarbeit „Ein Fest“ beschäftigt sich mit den Sehgewohnheiten unserer Zeit. Krieg, Brände, Terror sind Teil unseres Alltags geworden und sei es für einige Menschen nur aus den Medien. Daher liegt die Erklärung nahe, dass es sich bei diesen Bildern auch um ein schreckliches Ereignis handelt. Doch es ist ein Fest. Es wird auf eine besondere Art gefeiert. Das Alte wird verbrannt und das Neue mit Böllern willkommen geheißen.",
+          "images": [
+            "02_Video/ein_fest/01.png"
+          ]
+        },
+        {
           "slug": "auf_die_alte_weise",
           "title": "Auf die alte Weise",
           "text": "Video · 2018\n\n2 Min Ein Video über eine traditionelle Hausschlachtung. Licht, Oberflächen, unterschiedlichste Strukturen, unbekannte Geräusche. Es erinnert an alte Meister und vergangene Zeiten.\n\nVideostills ©Geeske Janßen",
@@ -58,14 +66,6 @@
             "02_Video/auf_die_alte_weise/01.png",
             "02_Video/auf_die_alte_weise/02.png",
             "02_Video/auf_die_alte_weise/03.png"
-          ]
-        },
-        {
-          "slug": "ein_fest",
-          "title": "Ein Fest",
-          "text": "Video · 2:50 Minuten · 2019\n\nRauch, vermeintliche Schüsse in der Nacht, Feuer. Menschen, die zu oder von etwas weglaufen. Menschen, die stehen bleiben und filmen.\n\nDie Videoarbeit „Ein Fest“ beschäftigt sich mit den Sehgewohnheiten unserer Zeit. Krieg, Brände, Terror sind Teil unseres Alltags geworden und sei es für einige Menschen nur aus den Medien. Daher liegt die Erklärung nahe, dass es sich bei diesen Bildern auch um ein schreckliches Ereignis handelt. Doch es ist ein Fest. Es wird auf eine besondere Art gefeiert. Das Alte wird verbrannt und das Neue mit Böllern willkommen geheißen.",
-          "images": [
-            "02_Video/ein_fest/01.png"
           ]
         },
         {
