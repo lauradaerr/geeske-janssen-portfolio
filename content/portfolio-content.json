@@ -51,16 +51,6 @@
           "videoUrl": "https://vimeo.com/323264304?fl=pl&fe=cm"
         },
         {
-          "slug": "king_of_holiday",
-          "title": "King Of Holiday",
-          "text": "Video · 2017 · 0:56 Min\n\nEin Kommentar zum Gestus von Urlaubenden.\n\nVideostills © Geeske Janßen",
-          "images": [
-            "02_Video/king_of_holiday/01.png",
-            "02_Video/king_of_holiday/02.png",
-            "02_Video/king_of_holiday/03.png"
-          ]
-        },
-        {
           "slug": "auf_die_alte_weise",
           "title": "Auf die alte Weise",
           "text": "Video · 2018\n\n2 Min Ein Video über eine traditionelle Hausschlachtung. Licht, Oberflächen, unterschiedlichste Strukturen, unbekannte Geräusche. Es erinnert an alte Meister und vergangene Zeiten.\n\nVideostills ©Geeske Janßen",
@@ -68,6 +58,16 @@
             "02_Video/auf_die_alte_weise/01.png",
             "02_Video/auf_die_alte_weise/02.png",
             "02_Video/auf_die_alte_weise/03.png"
+          ]
+        },
+        {
+          "slug": "king_of_holiday",
+          "title": "King Of Holiday",
+          "text": "Video · 2017 · 0:56 Min\n\nEin Kommentar zum Gestus von Urlaubenden.\n\nVideostills © Geeske Janßen",
+          "images": [
+            "02_Video/king_of_holiday/01.png",
+            "02_Video/king_of_holiday/02.png",
+            "02_Video/king_of_holiday/03.png"
           ]
         },
         {
