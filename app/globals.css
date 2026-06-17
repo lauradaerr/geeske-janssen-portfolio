@@ -197,7 +197,7 @@ article.themed { min-height: 0; }
 
   main { padding-bottom: 0; }
   /* dunkler Footer läuft weit nach unten hinter die Box-Leiste durch (kein Weiß), Inhalt klar darüber */
-  .foot { justify-content: center; text-align: center; gap: 0.25rem 0.9rem; padding-top: clamp(1.3rem,1rem+1.8vw,2rem); padding-bottom: calc(58px + 0.7rem); }
+  .foot { justify-content: center; text-align: center; gap: 0.25rem 0.9rem; padding-top: calc(clamp(1.3rem,1rem+1.8vw,2rem) + 3mm); padding-bottom: calc(58px + 0.7rem); }
   .foot > * { font-size: 0.6rem; opacity: 0.85; }
   .foot__name { display: none; }
   .mnav { display: flex; position: fixed; inset: auto 0 0 0; z-index: 90; height: 58px; }
