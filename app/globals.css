@@ -182,7 +182,7 @@ article.themed { min-height: 0; }
   .band__thumbs .thumb { flex: 0 0 clamp(150px, 60vw, 240px); scroll-snap-align: start; }
 
   .band__title, .sec-head__title, .work__title { font-size: clamp(2.2rem, 11vw, 3.4rem); line-height: 0.96; overflow-wrap: anywhere; max-width: none; }
-  .band__title { font-size: clamp(2.9rem, 15vw, 4.6rem); line-height: 0.92; }
+  .band__title { font-size: clamp(2.1rem, 11.5vw, 3.4rem); line-height: 0.95; }
 
   .works, .grid { grid-template-columns: repeat(2, 1fr); gap: 0; margin-left: calc(-1 * var(--pad)); margin-right: calc(-1 * var(--pad)); padding-top: 0.5rem; padding-bottom: 0; }
   .sec-head__count { display: none; }
