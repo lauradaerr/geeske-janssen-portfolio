@@ -1,48 +1,73 @@
 import fs from "node:fs";
 import path from "node:path";
 import { unstable_cache } from "next/cache";
-import { put, list, del } from "@vercel/blob";
 import type { Content, Project } from "@/lib/types";
 import seed from "@/content/portfolio-content.json";
 
 /* ------------------------------------------------------------------ *
  * Speicher-Schicht.
- *  - Online (Vercel): liegt in Vercel Blob — Inhalte als JSON, Bilder als Dateien.
- *    Aktiv, sobald BLOB_READ_WRITE_TOKEN gesetzt ist.
- *  - Lokal (Entwicklung): liegt im Dateisystem (content/… und public/works/…).
- * Das gebündelte content/portfolio-content.json dient als Startbestand/Fallback.
+ *  - Online (Vercel): GitHub-Repo als Quelle. Lesen über die GitHub-API
+ *    (zwischengespeichert), Schreiben per Commit. Bild-Uploads werden ins
+ *    Repo committet und über die raw-URL ausgeliefert. Kostenlos, kein Limit.
+ *    Aktiv, sobald GITHUB_TOKEN + GITHUB_REPO gesetzt sind.
+ *  - Lokal (Entwicklung): Dateisystem (content/… und public/works/…).
+ * Das gebündelte content/portfolio-content.json dient als Fallback.
  * ------------------------------------------------------------------ */
 
 const CONTENT_PATH = path.join(process.cwd(), "content", "portfolio-content.json");
 const WORKS_DIR = path.join(process.cwd(), "public", "works");
-const CONTENT_PREFIX = "data/portfolio-content";
+const CONTENT_FILE = "content/portfolio-content.json";
 const SEED = seed as unknown as Content;
 
-function useBlob(): boolean {
-  return !!(process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID);
+const GH_TOKEN = process.env.GITHUB_TOKEN;
+const GH_REPO = process.env.GITHUB_REPO; // "owner/repo"
+const GH_BRANCH = process.env.GITHUB_BRANCH || "main";
+function useGitHub(): boolean {
+  return !!(GH_TOKEN && GH_REPO);
+}
+const GH_HEADERS = { Authorization: `token ${GH_TOKEN}`, Accept: "application/vnd.github+json" };
+
+async function ghSha(filePath: string): Promise<string | undefined> {
+  const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${filePath}?ref=${GH_BRANCH}`, {
+    headers: GH_HEADERS,
+    cache: "no-store",
+  });
+  if (r.ok) return (await r.json()).sha as string;
+  return undefined;
 }
 
-/* Liest die neueste Inhaltsdatei aus dem Blob. In unstable_cache gekapselt, damit NICHT
- * bei jedem Seitenaufruf der Blob abgefragt wird (spart Verbrauch). Wird bei jeder
- * Admin-Speicherung über revalidateTag("content") sofort aufgefrischt. */
-const readBlobCached = unstable_cache(
+async function ghPut(filePath: string, base64: string, message: string) {
+  const sha = await ghSha(filePath);
+  const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${filePath}`, {
+    method: "PUT",
+    headers: { ...GH_HEADERS, "Content-Type": "application/json" },
+    body: JSON.stringify({ message, content: base64, sha, branch: GH_BRANCH }),
+  });
+  if (!r.ok) throw new Error("GitHub PUT fehlgeschlagen: " + r.status + " " + (await r.text()).slice(0, 200));
+}
+
+/* Inhalt aus GitHub lesen — in unstable_cache gekapselt (wenig API-Aufrufe),
+ * wird bei jeder Admin-Speicherung via revalidateTag("content") aufgefrischt. */
+const readGitHubCached = unstable_cache(
   async (): Promise<Content> => {
-    const { blobs } = await list({ prefix: CONTENT_PREFIX });
-    if (blobs.length) {
-      blobs.sort((a, b) => +new Date(b.uploadedAt) - +new Date(a.uploadedAt));
-      const res = await fetch(blobs[0].url, { cache: "no-store" });
-      if (res.ok) return (await res.json()) as Content;
+    const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${CONTENT_FILE}?ref=${GH_BRANCH}`, {
+      headers: GH_HEADERS,
+      cache: "no-store",
+    });
+    if (r.ok) {
+      const j = await r.json();
+      if (j.content) return JSON.parse(Buffer.from(j.content, "base64").toString("utf8")) as Content;
     }
     return SEED;
   },
-  ["portfolio-content"],
-  { revalidate: 600, tags: ["content"] }
+  ["gh-content"],
+  { revalidate: 120, tags: ["content"] }
 );
 
 export async function readContent(): Promise<Content> {
-  if (useBlob()) {
+  if (useGitHub()) {
     try {
-      return await readBlobCached();
+      return await readGitHubCached();
     } catch {
       return SEED;
     }
@@ -56,16 +81,8 @@ export async function readContent(): Promise<Content> {
 
 export async function writeContent(data: Content): Promise<void> {
   const json = JSON.stringify(data, null, 2);
-  if (useBlob()) {
-    // Vorher vorhandene Versionen merken, neue mit Zufalls-Suffix schreiben (eigene URL → kein
-    // „immutable"-Cache-Problem), danach die alten löschen.
-    const { blobs } = await list({ prefix: CONTENT_PREFIX });
-    const res = await put(`${CONTENT_PREFIX}.json`, json, {
-      access: "public",
-      addRandomSuffix: true,
-      contentType: "application/json",
-    });
-    await Promise.all(blobs.filter((b) => b.url !== res.url).map((b) => del(b.url).catch(() => {})));
+  if (useGitHub()) {
+    await ghPut(CONTENT_FILE, Buffer.from(json, "utf8").toString("base64"), "Inhalte aktualisiert (Admin)");
     return;
   }
   fs.writeFileSync(CONTENT_PATH, json, "utf8");
@@ -79,19 +96,17 @@ function slugify(s: string): string {
     .replace(/^_+|_+$/g, "") || "arbeit";
 }
 
-/** Speichert ein hochgeladenes Bild und gibt den Pfad/URL zurück (Blob-URL online, relativer Pfad lokal). */
+/** Speichert ein hochgeladenes Bild und gibt den Pfad/URL zurück (GitHub-raw online, relativer Pfad lokal). */
 export async function saveImage(sectionKey: string, file: File): Promise<string> {
   const ext = (file.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "");
   const base = slugify(file.name.replace(/\.[^.]+$/, "")).slice(0, 24);
   const name = `${Date.now()}_${base}.${ext}`;
   const buf = Buffer.from(await file.arrayBuffer());
 
-  if (useBlob()) {
-    const blob = await put(`works/uploads/${sectionKey}/${name}`, buf, {
-      access: "public",
-      contentType: file.type || undefined,
-    });
-    return blob.url; // absolute URL — imgSrc lässt sie unverändert
+  if (useGitHub()) {
+    const rel = `public/works/uploads/${sectionKey}/${name}`;
+    await ghPut(rel, buf.toString("base64"), "Bild hochgeladen (Admin)");
+    return `https://raw.githubusercontent.com/${GH_REPO}/${GH_BRANCH}/${rel}`;
   }
 
   const dir = path.join(WORKS_DIR, "uploads", sectionKey);
