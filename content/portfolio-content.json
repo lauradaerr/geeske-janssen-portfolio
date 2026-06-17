@@ -99,6 +99,15 @@
           ]
         },
         {
+          "slug": "work",
+          "title": "WORK",
+          "text": "Video · 2:47 Minuten · 2019\n\nGesicht, Augen, Füße. Haare, Nägel, Haut.\n\nEin Vertrauen in die Personen, die das eigene Aussehen und die damit verbundene Außenwirkung mitgestalten. Die Videoarbeit „Von Kopf bis Fuß“ beschäftigt sich mit der Arbeit hinter der Schönheit. Geld, Schmerzen, Ausdauer. Körperliche Nähe und berufliche Distanz. Entspannung, Vertrauen und Erholung.",
+          "images": [
+            "02_Video/work/01.png",
+            "02_Video/work/02.png"
+          ]
+        },
+        {
           "slug": "king_of_holiday",
           "title": "King Of Holiday",
           "text": "Video · 2017 · 0:56 Min\n\nEin Kommentar zum Gestus von Urlaubenden.\n\nVideostills © Geeske Janßen",
@@ -106,15 +115,6 @@
             "02_Video/king_of_holiday/01.png",
             "02_Video/king_of_holiday/02.png",
             "02_Video/king_of_holiday/03.png"
-          ]
-        },
-        {
-          "slug": "work",
-          "title": "WORK",
-          "text": "Video · 2:47 Minuten · 2019\n\nGesicht, Augen, Füße. Haare, Nägel, Haut.\n\nEin Vertrauen in die Personen, die das eigene Aussehen und die damit verbundene Außenwirkung mitgestalten. Die Videoarbeit „Von Kopf bis Fuß“ beschäftigt sich mit der Arbeit hinter der Schönheit. Geld, Schmerzen, Ausdauer. Körperliche Nähe und berufliche Distanz. Entspannung, Vertrauen und Erholung.",
-          "images": [
-            "02_Video/work/01.png",
-            "02_Video/work/02.png"
           ]
         }
       ]
