@@ -172,7 +172,8 @@ article.themed { min-height: 0; }
   .media-row { display: none; }
 
   .nav__right .toggles { display: none; }
-  .nav__sheet-tools { margin-top: auto; padding-top: 1.4rem; }
+  .nav__sheet > * { flex: 0 0 auto; }
+  .nav__sheet-tools { margin-top: 0; padding-top: 1.4rem; }
 
   .band { flex-direction: column; align-items: stretch; gap: 0.7rem; padding: clamp(1.4rem,1rem+4vw,2.2rem) 0 0 var(--pad); }
   .band__sub { display: none; }
