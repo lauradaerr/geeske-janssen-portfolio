@@ -164,7 +164,7 @@ article.themed { min-height: 0; }
   :root { --nav-h: 50px; --pad: 1.1rem; }
   .nav__links { display: none; }
   .nav__toggle { display: inline-flex; }
-  .nav__sheet { position: fixed; inset: var(--nav-h) 0 0 0; z-index: 75; background: var(--ink); color: var(--paper); display: flex; flex-direction: column; padding: var(--pad); gap: 0.3rem; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+  .nav__sheet { position: fixed; inset: var(--nav-h) 0 0 0; z-index: 95; background: var(--ink); color: var(--paper); display: flex; flex-direction: column; padding: var(--pad); padding-bottom: calc(var(--pad) + 1rem); gap: 0.3rem; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
   .nav__sheet a { font-family: var(--font-display); font-weight: 800; font-size: var(--t-big); }
 
   .hero { padding-top: clamp(1.6rem,1rem+6vw,3rem); }
@@ -181,6 +181,7 @@ article.themed { min-height: 0; }
   .band__thumbs .thumb { width: clamp(150px, 60vw, 240px); scroll-snap-align: start; }
 
   .band__title, .sec-head__title, .work__title { font-size: clamp(2.2rem, 11vw, 3.4rem); line-height: 0.96; overflow-wrap: anywhere; max-width: none; }
+  .band__title { font-size: clamp(2.9rem, 15vw, 4.6rem); line-height: 0.92; }
 
   .works, .grid { grid-template-columns: repeat(2, 1fr); gap: 0; margin-left: calc(-1 * var(--pad)); margin-right: calc(-1 * var(--pad)); padding-top: 0.5rem; padding-bottom: 0; }
   .sec-head__count { display: none; }
@@ -195,8 +196,8 @@ article.themed { min-height: 0; }
 
   main { padding-bottom: 0; }
   /* dunkler Footer läuft weit nach unten hinter die Box-Leiste durch (kein Weiß), Inhalt klar darüber */
-  .foot { justify-content: center; text-align: center; gap: 0.3rem 1rem; padding-top: clamp(2.6rem,2rem+4vw,4.5rem); padding-bottom: calc(58px + 1.2rem); }
-  .foot > * { font-size: 0.7rem; }
+  .foot { justify-content: center; text-align: center; gap: 0.25rem 0.9rem; padding-top: clamp(1.3rem,1rem+1.8vw,2rem); padding-bottom: calc(58px + 0.7rem); }
+  .foot > * { font-size: 0.6rem; opacity: 0.85; }
   .foot__name { display: none; }
   .mnav { display: flex; position: fixed; inset: auto 0 0 0; z-index: 90; height: 58px; }
   .mnav a { flex: 1; display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 800; font-size: 1.5rem; line-height: 1; color: #111110; -webkit-tap-highlight-color: transparent; }
