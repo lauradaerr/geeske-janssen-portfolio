@@ -5,9 +5,9 @@
     "source": "BEISPIELDATEN — ersetze diese Datei durch portfolio-content.json aus deinem Downloads-Ordner",
     "archivedAt": ""
   },
-  "about": "BEISPIEL — über den CMS-Editor ersetzbar.\n\nGeeske Janßens Arbeiten bewegen sich zwischen **Dokument** und *Inszenierung*. Über Video, Fotografie, Installation und Performance untersucht sie, wie sich Körper, Räume und Gesten zueinander verhalten.",
+  "about": "Geeske Janßen, Künstlerin und Filmemacherin, schafft eine visuelle Poetik des Alltäglichen und erforscht die Schönheit in dem, was oft als banal oder unzugänglich abgetan wird. Mit ihrem dokumentarischen Ansatz, gestützt auf Fotografie, Film und Interviews, entwickelt sie einen subjektiv-dokumentarischen Blick, der durch seine kompositorischen Ausschnitte und detaillierten Perspektiven die Realität auf unerwartete Weise zeigt. Sie hält Momente, Orte und Situationen fest, die sonst unbeachtet blieben, und lädt ein, die Welt neu zu sehen und überraschende Sichtweisen auf eigene und fremde Lebenswelten zu entdecken.",
   "cv": "BEISPIELTEXT — wird durch deinen echten Lebenslauf ersetzt.\n\nGeboren in …\nStudium der Bildenden Kunst, …\n\nAusstellungen (Auswahl)\n2024  …\n2023  …\n2022  …\n\nStipendien & Preise\n2023  …",
-  "contact": "BEISPIEL — ersetze durch echte Angaben.\n\nmail@geeskejanssen.com\nKöln, Deutschland\nwww.geeskejanssen.com",
+  "contact": "Geeske Janßen\r\nTorgauerstr. 80\r\n04318 Leipzig\r\n\r\nTel. +49 (0)176 990 80 927\r\n\r\nwww.geeskejanssen.com",
   "sections": [
     {
       "key": "video",
@@ -822,6 +822,6 @@
       "text": "CAMP/2, Festival für künstlerischen Film und Performance, Halle"
     }
   ],
-  "impressum": "BEISPIEL — im CMS unter Seiten editierbar.\n\n**Geeske Janßen**\nMusterstraße 1\n04318 Leipzig\n\nmail@geeskejanssen.com\n\nAlle Bilder und Texte sind urheberrechtlich geschützt.",
-  "datenschutz": "BEISPIEL — im CMS unter Seiten editierbar.\n\nDie Betreiber dieser Seite nehmen den Schutz personenbezogener Daten ernst. Die Website lässt sich ohne Angabe personenbezogener Daten nutzen. Bei einer Kontaktaufnahme werden die übermittelten Daten ausschließlich zur Bearbeitung der Anfrage gespeichert und nicht ohne Einwilligung weitergegeben."
+  "impressum": "© alle Bilder und Texte, sofern nicht anders gekennzeichnet, Geeske Janßen. Alle Bilder und Texte sind urheberrechtlich geschützt. Jedes Verwenden oder Vervielfältigen von Bildern und Texten ist untersagt. Die Genehmigung für den Gebrauch der Bilder oder Texte erfolgt nur mit schriftlicher Erlaubnis von Geeske Janßen.",
+  "datenschutz": "Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.\r\nDie Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.\r\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\r\nWenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.\r\n\r\nViele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt."
 }
