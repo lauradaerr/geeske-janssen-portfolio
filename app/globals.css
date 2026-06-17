@@ -74,8 +74,8 @@ button { font: inherit; }
 .band__title { font-family: var(--font-display); font-weight: 800; font-size: var(--t-huge); line-height: 0.86; letter-spacing: -0.03em; }
 .band__sub { display: flex; flex-direction: column; align-items: flex-end; gap: 0.15rem; text-align: right; font-family: var(--font-mono); font-size: var(--t-s); text-transform: uppercase; letter-spacing: 0.03em; }
 .band__sub .cta { opacity: 0.85; }
-.band__thumbs { display: flex; align-items: stretch; gap: 0; overflow: hidden; margin-left: calc(-1 * var(--pad)); }
-.band__thumbs .thumb { flex: 1 1 0; min-width: 0; aspect-ratio: 4 / 3; overflow: hidden; }
+.band__thumbs { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 0; overflow: hidden; margin-left: calc(-1 * var(--pad)); width: calc(100% + var(--pad)); }
+.band__thumbs .thumb { min-width: 0; aspect-ratio: 4 / 3; overflow: hidden; }
 .band__thumbs .thumb img { width: 100%; height: 100%; object-fit: cover; }
 
 /* Themed Seiten ---------------------------------------------- */
@@ -177,9 +177,9 @@ article.themed { min-height: 0; }
 
   .band { flex-direction: column; align-items: stretch; gap: 0.7rem; padding: clamp(1.4rem,1rem+4vw,2.2rem) 0 0 var(--pad); }
   .band__sub { display: none; }
-  .band__thumbs { justify-content: flex-start; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: clamp(1rem,1rem+2vw,2rem); scrollbar-width: none; }
+  .band__thumbs { display: flex; justify-content: flex-start; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: clamp(1rem,1rem+2vw,2rem); scrollbar-width: none; }
   .band__thumbs::-webkit-scrollbar { display: none; }
-  .band__thumbs .thumb { width: clamp(150px, 60vw, 240px); scroll-snap-align: start; }
+  .band__thumbs .thumb { flex: 0 0 clamp(150px, 60vw, 240px); scroll-snap-align: start; }
 
   .band__title, .sec-head__title, .work__title { font-size: clamp(2.2rem, 11vw, 3.4rem); line-height: 0.96; overflow-wrap: anywhere; max-width: none; }
   .band__title { font-size: clamp(2.9rem, 15vw, 4.6rem); line-height: 0.92; }
