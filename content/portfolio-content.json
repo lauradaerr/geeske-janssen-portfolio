@@ -52,15 +52,6 @@
           ]
         },
         {
-          "slug": "das_dorf",
-          "title": "Das Dorf",
-          "text": "Video · 7 Minuten · 2018\n\n“Das Dorf” ist ein Film, welcher auf mythische, brutale und ästhetische Art und Weise erzählt, wie ein Leben auf dem Dorf sein kann. Geschichten über Fight Clubs mit späteren Grillen, ältere Herren, die von der Polizei aus Versehen erschossen wurden und Fremdgehskandale auf Rindenmulchsäcken. Rauch und Nebel ziehen durch eine unergründliche Landschaft.",
-          "images": [
-            "02_Video/das_dorf/01.png"
-          ],
-          "videoUrl": "https://vimeo.com/323264304?fl=pl&fe=cm"
-        },
-        {
           "slug": "nutzungsvarianten",
           "title": "Nutzungsvarianten",
           "text": "3:03 Minuten · 2021\n\n„Nutzungsvarianten“ ist eine Videoarbeit, die sich mit den unterschiedlichen Nutzungsweisen von Tieren beschäftigt. Ob als Fell, geliebtes Haustier oder Unterhaltungsobjekt.",
@@ -68,6 +59,15 @@
             "02_Video/nutzungsvarianten/01.png",
             "02_Video/nutzungsvarianten/02.png"
           ]
+        },
+        {
+          "slug": "das_dorf",
+          "title": "Das Dorf",
+          "text": "Video · 7 Minuten · 2018\n\n“Das Dorf” ist ein Film, welcher auf mythische, brutale und ästhetische Art und Weise erzählt, wie ein Leben auf dem Dorf sein kann. Geschichten über Fight Clubs mit späteren Grillen, ältere Herren, die von der Polizei aus Versehen erschossen wurden und Fremdgehskandale auf Rindenmulchsäcken. Rauch und Nebel ziehen durch eine unergründliche Landschaft.",
+          "images": [
+            "02_Video/das_dorf/01.png"
+          ],
+          "videoUrl": "https://vimeo.com/323264304?fl=pl&fe=cm"
         },
         {
           "slug": "ein_fest",
