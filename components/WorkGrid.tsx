@@ -12,7 +12,9 @@ export default function WorkGrid({ works }: { works: WorkRef[] }) {
   const [hover, setHover] = useState<{ de: string; en: string; x: number; y: number } | null>(null);
   const [cols, setCols] = useState(3); // SSR-Default Desktop; auf Mobil nach Mount korrigiert
   const [measured, setMeasured] = useState(false);
-  // berechnete Höhe (px) pro Karten-Slug; leer = noch nicht angeglichen
+  // Verteilung der Werk-Slugs auf Spalten (gleich, wie die Höhen berechnet wurden)
+  const [colSlugs, setColSlugs] = useState<string[][]>(() => roundRobin(works, 3));
+  // berechnete Höhe (px) pro Karten-Slug
   const [heights, setHeights] = useState<Record<string, number>>({});
 
   const rootRef = useRef<HTMLDivElement>(null);
@@ -27,85 +29,73 @@ export default function WorkGrid({ works }: { works: WorkRef[] }) {
     return () => mq.removeEventListener("change", apply);
   }, []);
 
-  // Greedy-Verteilung der Karten auf `cols` Spalten anhand der gemessenen Höhen,
-  // dann jede Spalte auf die höchste hochskalieren → bündiger unterer Abschluss.
+  // Greedy-Verteilung anhand der gemessenen Bildhöhen + Angleichen aller Spalten
+  // auf die höchste → bündiger unterer Abschluss. Render nutzt EXAKT diese Verteilung.
   const layout = useCallback(() => {
     const root = rootRef.current;
     if (!root) return;
 
     // Mobil: keine Angleichung, volle Bilder in Originalreihenfolge
     if (cols < 2) {
+      setColSlugs([works.map((w) => w.slug)]);
       setHeights({});
       setMeasured(false);
       return;
     }
 
-    const inner = root.clientWidth; // Breite inkl. rechtem Bleed (margin-right negativ)
-    const colW = inner / cols;
+    const colW = root.clientWidth / cols;
     if (colW <= 0) return;
 
-    // natürliche Höhe je Karte bei Spaltenbreite ermitteln
-    const nat: { slug: string; h: number }[] = [];
-    for (const w of works) {
+    // natürliche Höhe je Karte bei Spaltenbreite
+    const nat = works.map((w) => {
       const el = cardRefs.current[w.slug];
       const img = el?.querySelector("img") as HTMLImageElement | null;
       let h: number;
       if (img && img.naturalWidth > 0) {
         h = colW * (img.naturalHeight / img.naturalWidth);
       } else {
-        // Text-Platzhalter (kein Cover) oder noch nicht geladen
         const ph = el?.querySelector(".work-card__ph") as HTMLElement | null;
         h = ph?.offsetHeight || colW * 0.75;
       }
-      nat.push({ slug: w.slug, h });
-    }
+      return { slug: w.slug, h };
+    });
 
     // Greedy: jede Karte der aktuell kürzesten Spalte zuordnen
-    const colSum = new Array(cols).fill(0);
-    const colItems: { slug: string; h: number }[][] = Array.from({ length: cols }, () => []);
+    const sum = new Array(cols).fill(0);
+    const items: { slug: string; h: number }[][] = Array.from({ length: cols }, () => []);
     for (const item of nat) {
       let min = 0;
-      for (let c = 1; c < cols; c++) if (colSum[c] < colSum[min]) min = c;
-      colItems[min].push(item);
-      colSum[min] += item.h;
+      for (let c = 1; c < cols; c++) if (sum[c] < sum[min]) min = c;
+      items[min].push(item);
+      sum[min] += item.h;
     }
 
-    // Zielhöhe = höchste Spalte; jede Spalte mit Faktor hochskalieren → alle gleich hoch
-    const target = Math.max(...colSum);
-    const next: Record<string, number> = {};
+    // Zielhöhe = höchste Spalte; jede Spalte mit Faktor hochskalieren
+    const target = Math.max(...sum);
+    const nextH: Record<string, number> = {};
     for (let c = 0; c < cols; c++) {
-      const sum = colSum[c];
-      const f = sum > 0 ? target / sum : 1;
-      for (const item of colItems[c]) next[item.slug] = Math.round(item.h * f);
+      const f = sum[c] > 0 ? target / sum[c] : 1;
+      for (const item of items[c]) nextH[item.slug] = Math.round(item.h * f);
     }
-    setHeights(next);
+    setColSlugs(items.map((col) => col.map((i) => i.slug)));
+    setHeights(nextH);
     setMeasured(true);
   }, [cols, works]);
 
-  // Nach Mount / Spaltenwechsel angleichen, sobald Bilder geladen sind
-  useLayoutEffect(() => {
-    layout();
-  }, [layout]);
+  useLayoutEffect(() => { layout(); }, [layout]);
 
   useEffect(() => {
     let t: ReturnType<typeof setTimeout> | undefined;
-    const onResize = () => {
-      clearTimeout(t);
-      t = setTimeout(layout, 120);
-    };
+    const onResize = () => { clearTimeout(t); t = setTimeout(layout, 120); };
     window.addEventListener("resize", onResize);
-    return () => {
-      clearTimeout(t);
-      window.removeEventListener("resize", onResize);
-    };
+    return () => { clearTimeout(t); window.removeEventListener("resize", onResize); };
   }, [layout]);
 
-  // Karten round-robin auf Spalten verteilen (deterministisch → kein Hydration-Mismatch).
-  // Reihenfolge je Spalte = Reihenfolge der Werke.
-  const columns: WorkRef[][] = Array.from({ length: cols }, () => []);
-  works.forEach((w, i) => columns[i % cols].push(w));
+  const bySlug = new Map(works.map((w) => [w.slug, w]));
 
-  const renderCard = (w: WorkRef) => {
+  const renderCard = (slug: string) => {
+    const w = bySlug.get(slug);
+    if (!w) return null;
     const t = splitLang(w.title);
     const h = heights[w.slug];
     return (
@@ -136,7 +126,7 @@ export default function WorkGrid({ works }: { works: WorkRef[] }) {
       className={`works${measured ? " works--measured" : ""}`}
       onMouseMove={(e) => setHover((h) => (h ? { ...h, x: e.clientX, y: e.clientY } : h))}
     >
-      {columns.map((col, c) => (
+      {colSlugs.map((col, c) => (
         <div className="works__col" key={c}>
           {col.map(renderCard)}
         </div>
@@ -149,4 +139,10 @@ export default function WorkGrid({ works }: { works: WorkRef[] }) {
       )}
     </div>
   );
+}
+
+function roundRobin(works: WorkRef[], cols: number): string[][] {
+  const out: string[][] = Array.from({ length: cols }, () => []);
+  works.forEach((w, i) => out[i % cols].push(w.slug));
+  return out;
 }
