@@ -365,7 +365,7 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
   .work-cursor { display: none; }
   .work-card { position: relative; height: auto; min-width: 0; }
   .work-card__img { height: auto; aspect-ratio: 4 / 3; }
-  .work-card__cap { display: block; position: absolute; inset: auto 0 0 0; margin: 0; padding: 1.5rem 0.6rem 0.55rem; color: #fff; font-family: var(--font-display); font-weight: 800; font-size: 1rem; line-height: 1.05; letter-spacing: -0.01em; background: linear-gradient(to top, rgba(0,0,0,0.62), rgba(0,0,0,0)); text-shadow: 0 1px 3px rgba(0,0,0,0.55); }
+  .work-card__cap { display: block; position: absolute; inset: auto 0 0 0; margin: 0; padding: 1.5rem 0.6rem 0.55rem; color: #fff; font-family: var(--font-display); font-weight: 800; font-size: 0.78rem; line-height: 1.1; letter-spacing: -0.01em; background: linear-gradient(to top, rgba(0,0,0,0.62), rgba(0,0,0,0)); text-shadow: 0 1px 3px rgba(0,0,0,0.55); }
 }
 
 /* ---------- Werkseite: großes Hero-Bild oben ---------- */
