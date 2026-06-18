@@ -268,11 +268,13 @@ article.themed { min-height: 0; }
 /* Werk-Raster: Bilder stehen für sich, Titel folgt der Maus */
 /* „Justified gallery": gleiche Zeilenhöhe, Kacheln füllen jede Reihe komplett
    → keine Farblücken, egal wie viele Arbeiten. Etwa 3 pro Reihe (Basis 30%). */
-/* Masonry (CSS-Spalten): 3 Spalten, volle unbeschnittene Bilder, ohne Abstand */
-.works { column-count: 4; column-gap: 0; line-height: 0; margin-left: 0; margin-right: calc(-1 * var(--pad)); padding-top: clamp(0.6rem,0.5rem+0.8vw,1.2rem); padding-bottom: clamp(1.2rem,1rem+1.5vw,2.5rem); }
-.work-card { display: block; width: 100%; margin: 0; break-inside: avoid; -webkit-column-break-inside: avoid; }
+/* Masonry (3 Spalten via JS): Spalten werden auf gleiche Höhe angeglichen → unten bündig */
+.works { display: flex; gap: 0; align-items: flex-start; line-height: 0; margin-left: 0; margin-right: calc(-1 * var(--pad)); padding-top: clamp(0.6rem,0.5rem+0.8vw,1.2rem); padding-bottom: clamp(1.2rem,1rem+1.5vw,2.5rem); }
+.works__col { flex: 1 1 0; min-width: 0; }
+.work-card { display: block; width: 100%; margin: 0; }
 .work-card__img { display: block; height: auto; overflow: hidden; background: rgba(0,0,0,0.10); }
 .work-card__img img { width: 100%; height: auto; display: block; }
+.works--measured .work-card__img img { height: 100%; object-fit: cover; }
 .work-card__ph { display: flex; align-items: center; justify-content: center; min-height: 12rem; padding: 1rem; text-align: center; font-family: var(--font-display); font-weight: 800; font-size: clamp(1.1rem,1rem+0.6vw,1.5rem); line-height: 1.05; border: 1px solid currentColor; }
 .work-card__cap { display: none; }
 .work-cursor { position: fixed; z-index: 60; transform: translate(16px, 14px); pointer-events: none; background: var(--fg); color: var(--bg); font-family: var(--font-display); font-weight: 800; font-size: clamp(1.1rem,1rem+0.8vw,1.8rem); letter-spacing: -0.02em; line-height: 1; padding: 0.18em 0.4em; white-space: nowrap; max-width: 70vw; overflow: hidden; text-overflow: ellipsis; }
@@ -363,7 +365,8 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
 /* ---------- Kategorie-Raster mobil: randlos, Titel über dem Bild ----------
    Steht bewusst am Dateiende, damit es die Basis-Regel `.works` überschreibt. */
 @media (max-width: 760px) {
-  .works { column-count: 1; display: block; gap: 0; margin-left: calc(-1 * var(--pad)); margin-right: calc(-1 * var(--pad)); padding-top: 0.5rem; padding-bottom: 0; }
+  .works { display: block; gap: 0; margin-left: calc(-1 * var(--pad)); margin-right: calc(-1 * var(--pad)); padding-top: 0.5rem; padding-bottom: 0; }
+  .works__col { width: 100%; }
   .work-cursor { display: none; }
   .work-card { position: relative; height: auto; min-width: 0; }
   .work-card__img { height: auto; aspect-ratio: 4 / 3; }
