@@ -13,7 +13,7 @@ function deEn(raw: string): { de: string; en: string } {
 }
 
 type Size = "s" | "m" | "l";
-type Project = { slug: string; title: string; text: string; images: string[]; videoUrl?: string; imageCredits?: Record<string, string>; imageSizes?: Record<string, Size> };
+type Project = { slug: string; title: string; description?: string; text: string; images: string[]; videoUrl?: string; imageCredits?: Record<string, string>; imageSizes?: Record<string, Size> };
 const toSrc = (p: string) => (/^https?:\/\//.test(p) || p.startsWith("/") ? p : `/works/${p}`);
 const SIZES: { v: Size; label: string }[] = [{ v: "s", label: "Drittel" }, { v: "m", label: "Halb" }, { v: "l", label: "Voll" }];
 
@@ -33,6 +33,7 @@ export default function WorkForm({
   const isNew = !project;
   const title = deEn(project?.title || "");
   const text = deEn(project?.text || "");
+  const description = project?.description || "";
 
   const move = (i: number, d: -1 | 1) =>
     setImages((a) => { const j = i + d; if (j < 0 || j >= a.length) return a; const n = a.slice(); [n[i], n[j]] = [n[j], n[i]]; return n; });
@@ -68,13 +69,15 @@ export default function WorkForm({
           <input id="slug" name="slug" type="text" defaultValue={project?.slug || ""} placeholder="wird aus dem Titel erzeugt, wenn leer" />
         </div>
 
-        <MarkdownField name="text" label="Beschreibung (Deutsch)" defaultValue={text.de} />
-        <MarkdownField name="textEn" label="Description (English)" defaultValue={text.en} />
+        <MarkdownField name="description" label="Werkbeschreibung (Technik, Maße, Jahr …) — erscheint direkt unter dem ersten Bild" defaultValue={description} minHeight={90} />
 
         <div className="adm__field">
-          <label htmlFor="videoUrl">Video-Link (optional, Vimeo/YouTube)</label>
+          <label htmlFor="videoUrl">Video-Link (optional, Vimeo/YouTube) — Button erscheint nach der Werkbeschreibung</label>
           <input id="videoUrl" name="videoUrl" type="url" defaultValue={project?.videoUrl || ""} placeholder="https://vimeo.com/…" />
         </div>
+
+        <MarkdownField name="text" label="Fließtext (Deutsch)" defaultValue={text.de} />
+        <MarkdownField name="textEn" label="Fließtext (English)" defaultValue={text.en} />
 
         <div className="adm__field">
           <label>Bilder — Reihenfolge ↑/↓, entfernen ×, Größe (Drittel/Halb/Voll), Urheber:in</label>

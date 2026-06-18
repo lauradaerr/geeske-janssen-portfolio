@@ -28,6 +28,7 @@ export async function saveWorkAction(formData: FormData) {
   const titleEn = String(formData.get("titleEn") || "").trim();
   const textDe = String(formData.get("text") || "").trim();
   const textEn = String(formData.get("textEn") || "").trim();
+  const description = String(formData.get("description") || "").trim();
   const slug = (String(formData.get("slug") || "").trim() || slugify(titleDe));
   // DE und EN im selben Feld ablegen (Frontend trennt per splitLang am ===EN===-Marker)
   const title = titleEn ? `${titleDe}\n===EN===\n${titleEn}` : titleDe;
@@ -52,6 +53,7 @@ export async function saveWorkAction(formData: FormData) {
   for (const p of images) { const s = sizesRaw[p]; if (s === "s" || s === "l") imageSizes[p] = s; }
 
   const project: Project = { slug, title, text, images };
+  if (description) project.description = description;
   if (videoUrl) project.videoUrl = videoUrl;
   if (Object.keys(imageCredits).length) project.imageCredits = imageCredits;
   if (Object.keys(imageSizes).length) project.imageSizes = imageSizes;

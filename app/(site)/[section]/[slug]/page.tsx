@@ -43,12 +43,13 @@ export default async function WorkPage({ params }: { params: Promise<{ section: 
           sizes={work.images.map((p) => work.imageSizes?.[p])}
           lead={
             <>
-              {work.text && <Markdown source={work.text} className="work__text md" />}
+              {work.description && <Markdown source={work.description} className="work__desc md" />}
               {work.videoUrl && (
                 <div className="work__video">
                   <VideoPlayer url={work.videoUrl} poster={work.cover ? imgSrc(work.cover) : undefined} title={title.de} />
                 </div>
               )}
+              {work.text && <Markdown source={work.text} className="work__text md" />}
             </>
           }
         />
