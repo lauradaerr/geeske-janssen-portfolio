@@ -11,7 +11,8 @@ export const metadata: Metadata = {
   description: "Video · Fotografie · Installation · Performance",
 };
 
-const boot = `(function(){try{var d=document.documentElement;var t=localStorage.getItem('gj-theme')||(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');d.dataset.theme=t;d.dataset.lang=localStorage.getItem('gj-lang')||'de';}catch(e){}})();`;
+// Beim Laden immer Hellmodus; manuelles Umschalten gilt für die Sitzung. Sprache bleibt gemerkt.
+const boot = `(function(){try{var d=document.documentElement;d.dataset.theme='light';d.dataset.lang=localStorage.getItem('gj-lang')||'de';}catch(e){}})();`;
 
 // Entfernt veraltete Service-Worker/Caches (z. B. von der Vorgänger-Seite), die sonst
 // dauerhaft alte Versionen ausliefern.
