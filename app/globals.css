@@ -435,3 +435,6 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
   .work__grid--single .work__hero .work__thumb { height: 100%; }
   .work__grid--single .work__hero .work__thumb img { height: 100%; max-height: none; object-fit: cover; }
 }
+
+/* Bilder gegen einfaches Ziehen/Speichern schützen (kein vollständiger Schutz möglich) */
+img { -webkit-user-drag: none; -webkit-touch-callout: none; user-select: none; }

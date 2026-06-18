@@ -18,12 +18,16 @@ const boot = `(function(){try{var d=document.documentElement;d.dataset.theme='li
 // dauerhaft alte Versionen ausliefern.
 const killSW = `(function(){try{if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){r.unregister()})}).catch(function(){})}if(self.caches&&caches.keys){caches.keys().then(function(ks){ks.forEach(function(k){caches.delete(k)})}).catch(function(){})}}catch(e){}})();`;
 
+// Bilder gegen einfaches Speichern schützen: Rechtsklick & Ziehen auf <img> unterbinden.
+const guard = `(function(){try{var img=function(e){return e.target&&e.target.tagName==='IMG'};document.addEventListener('contextmenu',function(e){if(img(e))e.preventDefault()},{capture:true});document.addEventListener('dragstart',function(e){if(img(e))e.preventDefault()},{capture:true});}catch(e){}})();`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de" suppressHydrationWarning className={`${bric.variable} ${inter.variable} ${mono.variable}`}>
       <body>
         <script dangerouslySetInnerHTML={{ __html: boot }} />
         <script dangerouslySetInnerHTML={{ __html: killSW }} />
+        <script dangerouslySetInnerHTML={{ __html: guard }} />
         {children}
       </body>
     </html>
