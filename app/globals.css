@@ -150,11 +150,11 @@ article.themed { min-height: 0; }
 .foot__links a:hover { opacity: 1; }
 .foot__mail:hover { text-decoration: underline; text-underline-offset: 3px; }
 .foot__copy { text-transform: uppercase; opacity: 0.65; }
-/* Desktop: Name & Copyright fluchten exakt mit Brand/Umschalter im Header (nur var(--pad)) */
+/* Desktop: Name & Copyright klar vom Rand eingerückt (deutlich sichtbarer Abstand) */
 @media (min-width: 761px) {
   .foot { gap: 0.5rem clamp(1.5rem, 3vw, 3.5rem); }
-  .foot__name { padding-left: 0; }
-  .foot__copy { padding-right: 0; }
+  .foot__name { padding-left: clamp(0.6rem, 1.5vw, 1.8rem); }
+  .foot__copy { padding-right: clamp(0.6rem, 1.5vw, 1.8rem); }
 }
 
 /* Bottom-Nav (mobil) ----------------------------------------- */
