@@ -401,11 +401,11 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
     align-self: start;
     min-width: 0;
   }
-  /* Hero rechts oben, unbeschnitten */
+  /* Hero rechts oben; Höhe begrenzt, damit Hochformate nicht riesig werden */
   .work__hero { grid-column: 2; grid-row: 1; margin: 0; }
   .work__hero .work__thumb { width: 100%; aspect-ratio: auto; height: auto; }
-  .work__hero .work__thumb img { height: auto; }
-  /* Restliche Bilder rechts als Masonry (Spalten), unbeschnitten */
+  .work__hero .work__thumb img { width: 100%; height: auto; max-height: 80vh; object-fit: cover; display: block; }
+  /* Restliche Bilder rechts. Vor dem Messen: einfache Spalten (Fallback). */
   .work__images {
     grid-column: 2;
     grid-row: 2;
@@ -418,13 +418,15 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
   .work__images--single { column-count: 1; }
   .work__images .work__fig {
     width: 100%;
-    height: auto;
     margin: 0;
     break-inside: avoid;
     -webkit-column-break-inside: avoid;
   }
-  .work__images .work__thumb { width: 100%; aspect-ratio: auto; height: auto; }
-  .work__images .work__thumb img { width: 100%; height: auto; display: block; }
+  /* Nach dem Messen: absolut positioniertes, unten bündiges Masonry */
+  .work__images--measured { position: relative; column-count: auto; }
+  .work__images--measured .work__fig { position: absolute; margin: 0; }
+  .work__images--measured .work__thumb { width: 100%; height: 100%; aspect-ratio: auto; }
+  .work__images--measured .work__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   /* Einzelnes Bild nicht überdehnen */
   .work__grid--single .work__hero { max-width: 60ch; }
 }
