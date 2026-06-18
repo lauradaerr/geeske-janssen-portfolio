@@ -190,8 +190,8 @@ article.themed { min-height: 0; }
 
   .work__top { padding-top: clamp(2.4rem,1.6rem+8vw,4.5rem); }
   .work__title { margin-top: 1rem; }
-  .work__desc { margin-top: clamp(1.6rem,1rem+5vw,2.6rem); line-height: 1.3; }
-  .work__desc.md p { margin: 0 0 0.2rem; }
+  .work__desc { margin-top: clamp(1.6rem,1rem+5vw,2.6rem); line-height: 1.15; }
+  .work__desc.md p { margin: 0 0 0.12rem; }
   .work__images { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; gap: 0; grid-auto-flow: unset; scrollbar-width: none; margin-left: calc(-1 * var(--pad)); padding-bottom: 0; }
   .work__images::-webkit-scrollbar { display: none; }
   .work__fig { flex: 0 0 100%; scroll-snap-align: center; grid-column: auto; }
