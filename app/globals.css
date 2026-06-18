@@ -383,11 +383,48 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
   .work__images { margin-left: calc(-1 * var(--pad)); margin-right: calc(-1 * var(--pad)); }
 }
 
-/* ---------- Werkseite Desktop: restliche Bilder füllen die Reihen randlos ---------- */
+/* ---------- Werkseite Desktop: zweispaltig — links Text (sticky), rechts Bilder ---------- */
 @media (min-width: 761px) {
-  .work__images { display: flex; flex-wrap: wrap; gap: 0; grid-auto-flow: unset; padding-bottom: 0; }
-  .work__fig { flex: 1 1 50%; min-width: 0; height: clamp(300px, 30vw, 480px); }
-  .work__fig .work__thumb { height: 100%; aspect-ratio: auto; }
-  /* Hero-Bild oben: rechts garantiert randlos */
-  .work__hero { margin-right: calc(-1 * var(--pad)); }
+  .work__grid {
+    display: grid;
+    grid-template-columns: minmax(15rem, 21rem) 1fr;
+    column-gap: clamp(1.5rem, 1rem + 2.5vw, 3.5rem);
+    margin-right: calc(-1 * var(--pad));
+    align-items: start;
+  }
+  /* Textspalte links, bleibt beim Scrollen stehen */
+  .work__col-text {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    position: sticky;
+    top: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+    align-self: start;
+    min-width: 0;
+  }
+  /* Hero rechts oben, unbeschnitten */
+  .work__hero { grid-column: 2; grid-row: 1; margin: 0; }
+  .work__hero .work__thumb { width: 100%; aspect-ratio: auto; height: auto; }
+  .work__hero .work__thumb img { height: auto; }
+  /* Restliche Bilder rechts als Masonry (Spalten), unbeschnitten */
+  .work__images {
+    grid-column: 2;
+    grid-row: 2;
+    display: block;
+    column-count: 2;
+    column-gap: 0;
+    padding-top: 0;
+    margin: 0;
+  }
+  .work__images--single { column-count: 1; }
+  .work__images .work__fig {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+  }
+  .work__images .work__thumb { width: 100%; aspect-ratio: auto; height: auto; }
+  .work__images .work__thumb img { width: 100%; height: auto; display: block; }
+  /* Einzelnes Bild nicht überdehnen */
+  .work__grid--single .work__hero { max-width: 60ch; }
 }
