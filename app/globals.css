@@ -401,6 +401,8 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
     align-self: start;
     min-width: 0;
   }
+  /* Text oben bündig zur Bildoberkante (kein zusätzlicher Abstand) */
+  .work__col-text > :first-child { margin-top: 0; }
   /* Hero rechts oben; Höhe begrenzt, damit Hochformate nicht riesig werden */
   .work__hero { grid-column: 2; grid-row: 1; margin: 0; }
   .work__hero .work__thumb { width: 100%; aspect-ratio: auto; height: auto; }
