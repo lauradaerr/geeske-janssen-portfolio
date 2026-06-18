@@ -430,6 +430,8 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
   .work__images--measured .work__fig { position: absolute; margin: 0; }
   .work__images--measured .work__thumb { width: 100%; height: 100%; aspect-ratio: auto; }
   .work__images--measured .work__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  /* Einzelnes Bild nicht überdehnen */
-  .work__grid--single .work__hero { max-width: 60ch; }
+  /* Einzelnes Bild: füllt die rechte Spalte voll (bündig rechts + unten, hochskaliert) */
+  .work__grid--single .work__hero { grid-row: 1 / span 2; align-self: stretch; max-width: none; }
+  .work__grid--single .work__hero .work__thumb { height: 100%; }
+  .work__grid--single .work__hero .work__thumb img { height: 100%; max-height: none; object-fit: cover; }
 }
