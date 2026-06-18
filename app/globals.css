@@ -286,14 +286,15 @@ article.themed { min-height: 0; }
 }
 
 /* Bild-Urheber / Fotograf:in auf der Werkseite */
-.work__fig { margin: 0; min-width: 0; }
+.work__fig { margin: 0; min-width: 0; position: relative; }
 .work__fig--s { grid-column: span 2; }
 .work__fig--m { grid-column: span 3; }
 .work__fig--l { grid-column: span 6; }
 .work__fig--s .work__thumb { aspect-ratio: 1 / 1; }
 .work__fig--m .work__thumb { aspect-ratio: 4 / 3; }
 .work__fig--l .work__thumb { aspect-ratio: 16 / 9; }
-.work__caption { font-family: var(--font-mono); font-size: var(--t-xs); letter-spacing: 0.02em; opacity: 0.7; padding-top: 0.35rem; }
+/* Bildunterschrift: Overlay unten links, schwarzer Grund, weiße Schrift */
+.work__caption { position: absolute; left: 0; bottom: 0; z-index: 2; margin: 0; padding: 0.28rem 0.5rem; max-width: 100%; background: #000; color: #fff; font-family: var(--font-mono); font-size: var(--t-xs); letter-spacing: 0.02em; line-height: 1.2; }
 
 /* Über-Seite: Pressetexte volle Breite, aufgeklappt zweispaltig */
 .ueber { padding-bottom: clamp(2.5rem,2rem+4vw,6rem); }
@@ -374,7 +375,7 @@ html[data-theme="dark"] .nav a.link[data-c="performance"]:hover { color: var(--c
 }
 
 /* ---------- Werkseite: großes Hero-Bild oben ---------- */
-.work__hero { margin-top: clamp(1rem,0.8rem+1.2vw,1.8rem); margin-right: calc(-1 * var(--pad)); margin-bottom: 0; margin-left: 0; }
+.work__hero { position: relative; margin-top: clamp(1rem,0.8rem+1.2vw,1.8rem); margin-right: calc(-1 * var(--pad)); margin-bottom: 0; margin-left: 0; }
 .work__hero .work__thumb { width: 100%; aspect-ratio: 16 / 9; }
 @media (max-width: 760px) {
   .work__hero { margin-left: calc(-1 * var(--pad)); }
