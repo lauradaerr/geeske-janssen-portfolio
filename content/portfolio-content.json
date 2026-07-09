@@ -326,7 +326,11 @@
             "01_Fotografie/vater_tochter/01.jpg",
             "01_Fotografie/vater_tochter/02.jpg"
           ],
-          "description": "Fotografie · 2014 · c-print auf Aludibond · 60x40"
+          "description": "Fotografie · 2014 · c-print auf Aludibond · 60x40",
+          "imageCredits": {
+            "01_Fotografie/vater_tochter/01.jpg": "Geeske Janßen",
+            "01_Fotografie/vater_tochter/02.jpg": "Walter Janßen"
+          }
         }
       ]
     },
