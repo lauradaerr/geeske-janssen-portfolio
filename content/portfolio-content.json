@@ -31,13 +31,14 @@
         },
         {
           "slug": "nutzungsvarianten",
-          "title": "Nutzungsvarianten",
-          "text": "„Nutzungsvarianten“ ist eine Videoarbeit, die sich mit den unterschiedlichen Nutzungsweisen von Tieren beschäftigt. Ob als Fell, geliebtes Haustier oder Unterhaltungsobjekt.",
+          "title": "Nutzungsvarianten\n===EN===\npurposes of use",
+          "text": "„Nutzungsvarianten“ ist eine Videoarbeit, die sich mit den unterschiedlichen Nutzungsweisen von Tieren beschäftigt. Ob als Fell, geliebtes Haustier oder Unterhaltungsobjekt.\n===EN===\n„purposes of use“ is a video that deals with the different usages of animals. If it’s as an beloved pet, fur or an object of entertainment.",
           "images": [
             "02_Video/nutzungsvarianten/01.png",
             "02_Video/nutzungsvarianten/02.png"
           ],
-          "description": "3:03 Minuten · 2021"
+          "description": "3:03 min · 2021",
+          "videoUrl": "https://vimeo.com/558565117"
         },
         {
           "slug": "venus",
