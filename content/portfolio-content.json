@@ -103,14 +103,13 @@
         {
           "slug": "auf_die_alte_weise",
           "title": "Auf die alte Weise\n===EN===\nOf The Old School",
-          "text": "Ein dokumentarischer Kurzfilm über eine traditionelle Hausschlachtung. Licht, Oberflächen, unterschiedlichste Strukturen, unbekannte Geräusche. Es erinnert an alte Meister und vergangene Zeiten.\r\n\r\nVideostills ©Geeske Janßen\n===EN===\nA short documentary film about a traditional home slaughter. Light, surfaces, a wide variety of textures, unfamiliar sounds. It evokes the old masters and times gone by.\r\n\r\n\r\nVideostills ©Geeske Janßen",
+          "text": "Ein dokumentarischer Kurzfilm über eine traditionelle Hausschlachtung. Licht, Oberflächen, unterschiedlichste Strukturen, unbekannte Geräusche. Es erinnert an alte Meister und vergangene Zeiten.\n===EN===\nA short documentary film about a traditional home slaughter. Light, surfaces, a wide variety of textures, unfamiliar sounds. It evokes the old masters and times gone by.",
           "images": [
             "02_Video/auf_die_alte_weise/01.png",
             "02_Video/auf_die_alte_weise/02.png",
             "02_Video/auf_die_alte_weise/03.png"
           ],
-          "description": "Film · 2018 · 2 min",
-          "videoUrl": "https://vimeo.com/342940765"
+          "description": "Film · 2018 · 2 min"
         },
         {
           "slug": "inside_out",
