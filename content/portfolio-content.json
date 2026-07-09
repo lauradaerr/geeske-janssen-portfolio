@@ -265,7 +265,11 @@
             "01_Fotografie/representation/01.jpg",
             "01_Fotografie/representation/02.png"
           ],
-          "description": "representation · Fotografie, 19-teilige Serie, · Cyanotypie, verschiedene Größen"
+          "description": "representation · Fotografie, 19-teilige Serie, · Cyanotypie, verschiedene Größen",
+          "imageCredits": {
+            "01_Fotografie/representation/01.jpg": "Geeske Janßen",
+            "01_Fotografie/representation/02.png": "Geeske Janßen"
+          }
         },
         {
           "slug": "leben_und_tod",
