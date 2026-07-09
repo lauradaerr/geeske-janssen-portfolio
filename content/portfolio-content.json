@@ -127,13 +127,14 @@
         {
           "slug": "king_of_holiday",
           "title": "King Of Holiday",
-          "text": "Ein Kommentar zum Gestus von Urlaubenden.\n\nVideostills © Geeske Janßen",
+          "text": "Ein Kommentar zum Gestus von Urlaubenden.\n===EN===\nA commentary on the behavior of vacationers.",
           "images": [
             "02_Video/king_of_holiday/01.png",
             "02_Video/king_of_holiday/02.png",
             "02_Video/king_of_holiday/03.png"
           ],
-          "description": "Video · 2017 · 0:56 Min"
+          "description": "Video · 2017 · 0:56 Min",
+          "videoUrl": "https://vimeo.com/351866061"
         }
       ]
     },
