@@ -7,7 +7,7 @@
   },
   "about": "Geeske Janßen, Künstlerin und Filmemacherin, schafft eine visuelle Poetik des Alltäglichen und erforscht die Schönheit in dem, was oft als banal oder unzugänglich abgetan wird. Mit ihrem dokumentarischen Ansatz, gestützt auf Fotografie, Film und Interviews, entwickelt sie einen subjektiv-dokumentarischen Blick, der durch seine kompositorischen Ausschnitte und detaillierten Perspektiven die Realität auf unerwartete Weise zeigt. Sie hält Momente, Orte und Situationen fest, die sonst unbeachtet blieben, und lädt ein, die Welt neu zu sehen und überraschende Sichtweisen auf eigene und fremde Lebenswelten zu entdecken.",
   "cv": "BEISPIELTEXT — wird durch deinen echten Lebenslauf ersetzt.\n\nGeboren in …\nStudium der Bildenden Kunst, …\n\nAusstellungen (Auswahl)\n2024  …\n2023  …\n2022  …\n\nStipendien & Preise\n2023  …",
-  "contact": "Geeske Janßen\r\nTorgauerstr. 80\r\n04318 Leipzig\r\n\r\nTel. +49 (0)176 990 80 927\r\n\r\nwww.geeskejanssen.com",
+  "contact": "Geeske Janßen\r\nTorgauerstr. 80\r\n04318 Leipzig\r\n\r\nMail: info@geeskejanssen.com\r\nTel. +49 (0)176 990 80 927\r\n\r\nwww.geeskejanssen.com",
   "sections": [
     {
       "key": "video",
@@ -792,12 +792,20 @@
       "text": "kontrast, Filmfestival, Bayreuth"
     },
     {
+      "date": "2025-2026",
+      "text": "Felder und Fassaden, Museum Schloss Lützen, Lützen"
+    },
+    {
       "date": "2025",
       "text": "Filmament im KommKino Nürnberg"
     },
     {
       "date": "2025",
       "text": "Hessischer Filmpreis - Kurzfilmrolle in Pupille Frankfurt"
+    },
+    {
+      "date": "2025",
+      "text": "Dresden trifft Weiterstadt, Zentralwerk, Dresden"
     },
     {
       "date": "2025",
@@ -808,8 +816,40 @@
       "text": "49. Open Air Filmfest Weiterstadt"
     },
     {
+      "date": "2025",
+      "text": "Swinger Club, LYCRA Raum, Hamburg"
+    },
+    {
+      "date": "2025",
+      "text": "Hessen Talents auf European Filmmarket/ Berlinale, Berlin"
+    },
+    {
+      "date": "2025",
+      "text": "LICHTER Filmfest Frankfurt International, Frankfurt"
+    },
+    {
+      "date": "2025",
+      "text": "Hessen Talents, fsk Kino, Berlin"
+    },
+    {
+      "date": "2025",
+      "text": "Stuttgarter Filmwinter, Festival for Expanded Media, Stuttgart"
+    },
+    {
+      "date": "2025",
+      "text": "Bamberger Kurzfilmtage, Bamberg"
+    },
+    {
       "date": "2024",
       "text": "Motto SPORT, Galerie Gruppe Motto, Hamburg"
+    },
+    {
+      "date": "2024",
+      "text": "DOKfest Kassel, Filmfestival, Kassel"
+    },
+    {
+      "date": "2024",
+      "text": "Flensburger Filmtage, Filmfestival, Flensburg"
     },
     {
       "date": "2023",
@@ -864,8 +904,8 @@
       "text": "KURZSUECHTIG, Filmfestival, Leipzig"
     },
     {
-      "date": "2025",
-      "text": "Dresden trifft Weiterstadt, Zentralwerk Dresden"
+      "date": "2020",
+      "text": "BACK&FORTH, HALLE 14 / Spinnerei, Leipzig"
     },
     {
       "date": "2022",
@@ -878,6 +918,10 @@
     {
       "date": "2022",
       "text": "SHORTS, Trinationales Filmfestival, Offenburg"
+    },
+    {
+      "date": "2020",
+      "text": "reminiscence, KUNSTRAUM 53 / Literaturhaus St. Jakobi, Hildesheim"
     },
     {
       "date": "2021",
@@ -894,14 +938,6 @@
     {
       "date": "2020",
       "text": "Klimainfarkt, Kunstraum Egg, Schweiz (CH)"
-    },
-    {
-      "date": "2020",
-      "text": "BACK&FORTH, HALLE 14 / Spinnerei, Leipzig"
-    },
-    {
-      "date": "2020",
-      "text": "reminiscence, KUNSTRAUM 53 / Literaturhaus St. Jakobi, Hildesheim"
     },
     {
       "date": "2020",
