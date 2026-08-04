@@ -58,6 +58,18 @@
           }
         },
         {
+          "slug": "monika",
+          "title": "Monika\n===EN===\nMonika",
+          "text": "Der dokumentarische Kurzfilm „Monika“ erzählt von der Beziehung zwischen einem Menschen und einem Gegenstand. Szenen aus einem Interview mit dem Besitzer der Sexpuppe Monika geben Einblicke in das Erleben von Intimität und Nähe, die ihm anders versagt bleiben würden. „Monika“ zeigt die positiven Auswirkungen des Besitzes und der Nutzung von Sexpuppen und thematisiert gleichzeitig Einsamkeit, Stigmatisierung und Ängste.\n===EN===\n„Monika“ tells of the intimate relationship between a person and an object. Scenes from an interview with the owner of the sex doll Monika provide insights into the experience of intimacy and physical closeness that would otherwise be denied to him. “Monika” shows the positive effects of owning and using sex dolls and at the same time addresses loneliness, stigmatization and fears.",
+          "images": [
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835273251_monika_1.png",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835275515_monika_2.png",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835276972_monika_3.png"
+          ],
+          "description": "Dokumentarischer Kurzfilm, 12 min, 2024",
+          "videoUrl": "https://vimeo.com/manage/videos/1181478066"
+        },
+        {
           "slug": "heritage",
           "title": "heritage\n===EN===\nheritage",
           "text": "Die Videoarbeit „heritage\" ist das Portrait eines Handwerks und zugleich das einer Beziehung zwischen Vater und Sohn. In ruhigen, genau gesetzten Einstellungen folgt die Kamera den Handgriffen – Bewegungen, die über Jahre eingeübt wurden und sich kaum in Worte fassen lassen. Wissen wird hier nicht erklärt, sondern weitergegeben: durch Wiederholung, durch Nähe, durch das Mitansehen.\r\n\r\nIm Nebeneinander der beiden Generationen verschiebt sich der Blick vom Gegenstand der Arbeit auf das, was zwischen den Beteiligten liegt – Vertrautheit, stille Erwartung, das Erbe einer Tätigkeit, die zugleich eine Sprache ist. „heritage\" fragt, was bleibt, wenn ein Können von einer Hand in die nächste übergeht.\n===EN===\n\"heritage\" is a video work that portrays a craft and, at the same time, a relationship between father and son.\"heritage\" is a video work that portrays a craft and, at the same time, a relationship between father and son. In quiet, precisely framed shots, the camera follows the movements of the hands — gestures rehearsed over years that can hardly be put into words. Knowledge is not explained here but passed on: through repetition, through closeness, through looking on.\r\n\r\nIn the juxtaposition of the two generations, the gaze shifts from the object of the work to what lies between those involved — familiarity, quiet expectation, the inheritance of an activity that is also a language. \"heritage\" asks what remains when a skill is handed from one hand to the next.",
@@ -73,18 +85,6 @@
           "imageCredits": {
             "02_Video/heritage/04.png": "Ausstellungsansicht, BACK&FORTH, HALLE14, Zentrum für zeitgenössische Kunst, Leipzig, 2020llungsansicht, BACK&FORTH, HALLE14, Zentrum für zeitgenössische, Leipzig, 2020"
           }
-        },
-        {
-          "slug": "monika",
-          "title": "Monika\n===EN===\nMonika",
-          "text": "Der dokumentarische Kurzfilm „Monika“ erzählt von der Beziehung zwischen einem Menschen und einem Gegenstand. Szenen aus einem Interview mit dem Besitzer der Sexpuppe Monika geben Einblicke in das Erleben von Intimität und Nähe, die ihm anders versagt bleiben würden. „Monika“ zeigt die positiven Auswirkungen des Besitzes und der Nutzung von Sexpuppen und thematisiert gleichzeitig Einsamkeit, Stigmatisierung und Ängste.\n===EN===\n„Monika“ tells of the intimate relationship between a person and an object. Scenes from an interview with the owner of the sex doll Monika provide insights into the experience of intimacy and physical closeness that would otherwise be denied to him. “Monika” shows the positive effects of owning and using sex dolls and at the same time addresses loneliness, stigmatization and fears.",
-          "images": [
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835273251_monika_1.png",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835275515_monika_2.png",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835276972_monika_3.png"
-          ],
-          "description": "Dokumentarischer Kurzfilm, 12 min, 2024",
-          "videoUrl": "https://vimeo.com/manage/videos/1181478066"
         },
         {
           "slug": "das_dorf",
