@@ -241,6 +241,17 @@
           "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
+          "slug": "lean_on_me",
+          "title": "lean on me",
+          "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
+          "images": [
+            "01_Fotografie/lean_on_me/01.png",
+            "01_Fotografie/lean_on_me/02.png",
+            "01_Fotografie/lean_on_me/03.png"
+          ],
+          "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
+        },
+        {
           "slug": "fischerei",
           "title": "Fischerei",
           "text": "80x120 2020\n\nDie Arbeit „Fischerei“ beschäftigt sich mit dem Handwerk traditioneller Fischerei. Fisch als Massenprodukt lässt das Handwerk verschwinden, an Stelle dessen tritt die Industrie. Diese drei Bilder sind Sinnbilder der Fischerei.\n\nAusstellungsansicht, BACK&FORTH, HALLE14, Zentrum für zeitgenössische, Leipzig, 2020",
@@ -263,17 +274,6 @@
             "01_Fotografie/spuren/04.jpg"
           ],
           "description": "Spuren"
-        },
-        {
-          "slug": "lean_on_me",
-          "title": "lean on me",
-          "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
-          "images": [
-            "01_Fotografie/lean_on_me/01.png",
-            "01_Fotografie/lean_on_me/02.png",
-            "01_Fotografie/lean_on_me/03.png"
-          ],
-          "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
         },
         {
           "slug": "alle_tage",
