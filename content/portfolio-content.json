@@ -190,6 +190,19 @@
           "description": "15-teilige Fotoserie\r\n15 x 20 cm\r\nC-Print auf Barytpapier\r\n2023"
         },
         {
+          "slug": "schatzstrasse",
+          "title": "Schatzstraße",
+          "text": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig",
+          "images": [
+            "01_Fotografie/schatzstrasse/01.png",
+            "01_Fotografie/schatzstrasse/02.png",
+            "01_Fotografie/schatzstrasse/03.png",
+            "01_Fotografie/schatzstrasse/04.png",
+            "01_Fotografie/schatzstrasse/05.png"
+          ],
+          "description": "Fotografie · 2017 · c-print auf Aludibond · 50x75"
+        },
+        {
           "slug": "alle_tage",
           "title": "Alle Tage",
           "text": "Ausstellungsansicht Kulturhaus Müller, Ganderkesee",
@@ -206,19 +219,6 @@
             "01_Fotografie/alle_tage/10.png"
           ],
           "description": "Fotografie · 10-teilige Serie · c-print auf Aludibond gerahmt · 2019"
-        },
-        {
-          "slug": "schatzstrasse",
-          "title": "Schatzstraße",
-          "text": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig",
-          "images": [
-            "01_Fotografie/schatzstrasse/01.png",
-            "01_Fotografie/schatzstrasse/02.png",
-            "01_Fotografie/schatzstrasse/03.png",
-            "01_Fotografie/schatzstrasse/04.png",
-            "01_Fotografie/schatzstrasse/05.png"
-          ],
-          "description": "Fotografie · 2017 · c-print auf Aludibond · 50x75"
         },
         {
           "slug": "fischerei",
