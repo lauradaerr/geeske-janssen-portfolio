@@ -293,17 +293,6 @@
           "description": "Fotografie · 10-teilige Serie · c-print auf Aludibond gerahmt · 2019"
         },
         {
-          "slug": "der_bauernhof",
-          "title": "Der Bauernhof",
-          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
-          "images": [
-            "01_Fotografie/der_bauernhof/01.png",
-            "01_Fotografie/der_bauernhof/02.png",
-            "01_Fotografie/der_bauernhof/03.png"
-          ],
-          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
-        },
-        {
           "slug": "on_the_floor",
           "title": "on the floor",
           "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.",
@@ -315,6 +304,17 @@
             "01_Fotografie/on_the_floor/05.jpg"
           ],
           "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
+        },
+        {
+          "slug": "der_bauernhof",
+          "title": "Der Bauernhof",
+          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
+          "images": [
+            "01_Fotografie/der_bauernhof/01.png",
+            "01_Fotografie/der_bauernhof/02.png",
+            "01_Fotografie/der_bauernhof/03.png"
+          ],
+          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
         },
         {
           "slug": "nrw_studio_dueren",
