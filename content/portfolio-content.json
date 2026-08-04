@@ -253,17 +253,6 @@
           "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt"
         },
         {
-          "slug": "lean_on_me",
-          "title": "lean on me",
-          "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
-          "images": [
-            "01_Fotografie/lean_on_me/01.png",
-            "01_Fotografie/lean_on_me/02.png",
-            "01_Fotografie/lean_on_me/03.png"
-          ],
-          "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
-        },
-        {
           "slug": "spuren",
           "title": "Spuren",
           "text": "4-teilige Serie c-print Hahnemühle Photo Rag Bright White auf Aludibond 40x60 2021\n\n„Spuren“ beschäftigt sich mit den Hinterlassenschaften, die eine Stadt formen. Die von Urin geformten Abdrücke von Tieren zeigen auf, wie das Stadtbild temporär gestaltet wird. Die Detailaufnahmen lassen die Betrachtenden in die Schönheit des Materials versinken. Körperausscheidungen werden auf diese Weise in anderer Struktur oder Skulpturalität betrachtet.",
@@ -274,6 +263,17 @@
             "01_Fotografie/spuren/04.jpg"
           ],
           "description": "Spuren"
+        },
+        {
+          "slug": "lean_on_me",
+          "title": "lean on me",
+          "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
+          "images": [
+            "01_Fotografie/lean_on_me/01.png",
+            "01_Fotografie/lean_on_me/02.png",
+            "01_Fotografie/lean_on_me/03.png"
+          ],
+          "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
         },
         {
           "slug": "alle_tage",
