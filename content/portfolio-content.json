@@ -304,19 +304,6 @@
           "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
         },
         {
-          "slug": "on_the_floor",
-          "title": "on the floor",
-          "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.",
-          "images": [
-            "01_Fotografie/on_the_floor/01.png",
-            "01_Fotografie/on_the_floor/02.jpg",
-            "01_Fotografie/on_the_floor/03.jpg",
-            "01_Fotografie/on_the_floor/04.jpg",
-            "01_Fotografie/on_the_floor/05.jpg"
-          ],
-          "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
-        },
-        {
           "slug": "nrw_studio_dueren",
           "title": "NRW Studio Düren",
           "text": "6-teilige Serie c-print auf Aludibond 80x120/60x80/40x60 2019\r\n\r\nFotografien, die einen alltäglichen Ort und Gegenstände zeigen. Sofas, Grünpflanzen, Computer, Stühle, Teppiche und Treppen. Die Orte vermitteln jedoch nichts Heimeliges. Sie sind trotz der Bemühungen es gemütlich wirken zu lassen, kein schöner Ort. Der Titel gibt Aufschluss auf eine Studiosituation. Hier wird ein Bühnenbild inszeniert. Doch anstatt den Fokus auf eine Traumwelt zu legen, sind die Räume ein inszeniertes Bühnenbild, welches vermitteln soll, dass es „bei Nachbars“ sein könnte. Hier lässt sich auf die deutsche Präferenz schließen, „authentischen“ Sex zu sehen. In amerikanischen Filmen ist z.B. viel mehr Hochglanz, Luxus und Glamour von den Zuschauern gefordert. Es gibt keine persönlichen Gegenstände. Beim Schreibtisch keinen Stift, kein Foto an den Wänden oder eingeräumte Regale. Es sind Leerstellen, die durch die Akteure gefüllt werden. Die Sets sind Andeutungen einer Alltäglichkeit. Sie müssen nicht komplett ausgefüllt sein, da die Handlung so präsent sind, dass sie alles andere „überschreiben“. Hier hat mich interessiert, wie unsexy der Ort ist, an dem sexuelle Illusionen inszeniert werden. Der Zuschauer füllt durch sein ganz eigenes Wissen über pornografische Filme die leeren Orte mit Körpern. Je nach Vorstellung über die Industrie färbt sich die Szenerie anders.",
@@ -332,6 +319,19 @@
           "imageCredits": {
             "01_Fotografie/nrw_studio_dueren/02.png": "©Freddi Zaugg"
           }
+        },
+        {
+          "slug": "on_the_floor",
+          "title": "on the floor",
+          "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.",
+          "images": [
+            "01_Fotografie/on_the_floor/01.png",
+            "01_Fotografie/on_the_floor/02.jpg",
+            "01_Fotografie/on_the_floor/03.jpg",
+            "01_Fotografie/on_the_floor/04.jpg",
+            "01_Fotografie/on_the_floor/05.jpg"
+          ],
+          "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
         },
         {
           "slug": "schatzstrasse",
