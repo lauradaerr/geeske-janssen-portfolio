@@ -252,17 +252,6 @@
           "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
-          "slug": "lean_on_me",
-          "title": "lean on me",
-          "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
-          "images": [
-            "01_Fotografie/lean_on_me/01.png",
-            "01_Fotografie/lean_on_me/02.png",
-            "01_Fotografie/lean_on_me/03.png"
-          ],
-          "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
-        },
-        {
           "slug": "on_the_floor",
           "title": "on the floor",
           "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.",
@@ -274,6 +263,17 @@
             "01_Fotografie/on_the_floor/05.jpg"
           ],
           "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
+        },
+        {
+          "slug": "lean_on_me",
+          "title": "lean on me",
+          "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
+          "images": [
+            "01_Fotografie/lean_on_me/01.png",
+            "01_Fotografie/lean_on_me/02.png",
+            "01_Fotografie/lean_on_me/03.png"
+          ],
+          "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
         },
         {
           "slug": "spuren",
