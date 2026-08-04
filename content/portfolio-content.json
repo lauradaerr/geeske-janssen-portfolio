@@ -30,17 +30,6 @@
           "description": "Video · Single-channel · 7:10 Min · 2022 · \r\nText Mario Osterland"
         },
         {
-          "slug": "nutzungsvarianten",
-          "title": "Nutzungsvarianten\n===EN===\npurposes of use",
-          "text": "„Nutzungsvarianten“ ist eine Videoarbeit, die sich mit den unterschiedlichen Nutzungsweisen von Tieren beschäftigt. Ob als Fell, geliebtes Haustier oder Unterhaltungsobjekt.\n===EN===\n„purposes of use“ is a video that deals with the different usages of animals. If it’s as an beloved pet, fur or an object of entertainment.",
-          "images": [
-            "02_Video/nutzungsvarianten/01.png",
-            "02_Video/nutzungsvarianten/02.png"
-          ],
-          "description": "3:03 min · 2021",
-          "videoUrl": "https://vimeo.com/558565117"
-        },
-        {
           "slug": "monika",
           "title": "Monika\n===EN===\nMonika",
           "text": "Der dokumentarische Kurzfilm „Monika“ erzählt von der Beziehung zwischen einem Menschen und einem Gegenstand. Szenen aus einem Interview mit dem Besitzer der Sexpuppe Monika geben Einblicke in das Erleben von Intimität und Nähe, die ihm anders versagt bleiben würden. „Monika“ zeigt die positiven Auswirkungen des Besitzes und der Nutzung von Sexpuppen und thematisiert gleichzeitig Einsamkeit, Stigmatisierung und Ängste.\n===EN===\n„Monika“ tells of the intimate relationship between a person and an object. Scenes from an interview with the owner of the sex doll Monika provide insights into the experience of intimacy and physical closeness that would otherwise be denied to him. “Monika” shows the positive effects of owning and using sex dolls and at the same time addresses loneliness, stigmatization and fears.",
@@ -51,6 +40,17 @@
           ],
           "description": "Dokumentarischer Kurzfilm, 12 min, 2024",
           "videoUrl": "https://vimeo.com/manage/videos/1181478066"
+        },
+        {
+          "slug": "nutzungsvarianten",
+          "title": "Nutzungsvarianten\n===EN===\npurposes of use",
+          "text": "„Nutzungsvarianten“ ist eine Videoarbeit, die sich mit den unterschiedlichen Nutzungsweisen von Tieren beschäftigt. Ob als Fell, geliebtes Haustier oder Unterhaltungsobjekt.\n===EN===\n„purposes of use“ is a video that deals with the different usages of animals. If it’s as an beloved pet, fur or an object of entertainment.",
+          "images": [
+            "02_Video/nutzungsvarianten/01.png",
+            "02_Video/nutzungsvarianten/02.png"
+          ],
+          "description": "3:03 min · 2021",
+          "videoUrl": "https://vimeo.com/558565117"
         },
         {
           "slug": "venus",
