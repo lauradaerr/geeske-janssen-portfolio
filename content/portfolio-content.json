@@ -202,6 +202,18 @@
           "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt"
         },
         {
+          "slug": "all_inclusive",
+          "title": "ALL INCLUSIVE",
+          "text": "",
+          "images": [
+            "01_Fotografie/all_inclusive/01.png",
+            "01_Fotografie/all_inclusive/02.png",
+            "01_Fotografie/all_inclusive/03.png",
+            "01_Fotografie/all_inclusive/04.png"
+          ],
+          "description": "Fotografie · 2017 · c-prints · 50x75 cm"
+        },
+        {
           "slug": "alle_tage",
           "title": "Alle Tage",
           "text": "Ausstellungsansicht Kulturhaus Müller, Ganderkesee",
@@ -218,18 +230,6 @@
             "01_Fotografie/alle_tage/10.png"
           ],
           "description": "Fotografie · 10-teilige Serie · c-print auf Aludibond gerahmt · 2019"
-        },
-        {
-          "slug": "all_inclusive",
-          "title": "ALL INCLUSIVE",
-          "text": "",
-          "images": [
-            "01_Fotografie/all_inclusive/01.png",
-            "01_Fotografie/all_inclusive/02.png",
-            "01_Fotografie/all_inclusive/03.png",
-            "01_Fotografie/all_inclusive/04.png"
-          ],
-          "description": "Fotografie · 2017 · c-prints · 50x75 cm"
         },
         {
           "slug": "huellen",
