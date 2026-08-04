@@ -232,14 +232,17 @@
         },
         {
           "slug": "huellen",
-          "title": "Hüllen",
+          "title": "Hüllen\n===EN===\nShells",
           "text": "*Denkmal: Im engeren Sinne bezeichnet der Begriff Denkmal plastische Werke, die zur Wahrung des Andenkens an eine Person, eine Personengruppe oder ein historisches\r\nEreignis errichtet wurden. Mit einem Denkmal werden im öffentlichen Raum Gedenkorte geschaffen oder Gedächtnisorte markiert. Denkmäler können je nach Anlass unterschiedliche Erinnerungshaltungen provozieren*.\r\n\r\n\r\n„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.\n===EN===\nMonument: In the narrow sense, the term “monument” refers to sculptural works erected to preserve the memory of a person, a group of people, or a historical\r\nevent. Monuments are used in public spaces to create memorial sites or to mark places of remembrance. Depending on the occasion, monuments can evoke different attitudes toward remembrance.\r\n\r\n\r\n“Shells” explores the purpose and significance of monuments. An image of a collapsed bouncy castle is projected onto the Monument to the Battle of the Nations in Leipzig.",
           "images": [
             "01_Fotografie/huellen/01.jpg",
-            "01_Fotografie/huellen/02.jpg",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1785839016701_huellen_1_skaliert_kopie.jpg"
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1785839016701_huellen_1_skaliert_kopie.jpg",
+            "01_Fotografie/huellen/02.jpg"
           ],
-          "description": "Projektion · Fotografie · 91x130 Meter · 2021"
+          "description": "Projektion · Fotografie · 91x130 Meter · 2021",
+          "imageSizes": {
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1785839016701_huellen_1_skaliert_kopie.jpg": "s"
+          }
         },
         {
           "slug": "lean_on_me",
