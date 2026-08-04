@@ -335,6 +335,18 @@
           "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
         },
         {
+          "slug": "spuren",
+          "title": "Spuren",
+          "text": "4-teilige Serie c-print Hahnemühle Photo Rag Bright White auf Aludibond 40x60 2021\n\n„Spuren“ beschäftigt sich mit den Hinterlassenschaften, die eine Stadt formen. Die von Urin geformten Abdrücke von Tieren zeigen auf, wie das Stadtbild temporär gestaltet wird. Die Detailaufnahmen lassen die Betrachtenden in die Schönheit des Materials versinken. Körperausscheidungen werden auf diese Weise in anderer Struktur oder Skulpturalität betrachtet.",
+          "images": [
+            "01_Fotografie/spuren/01.jpg",
+            "01_Fotografie/spuren/02.jpg",
+            "01_Fotografie/spuren/03.jpg",
+            "01_Fotografie/spuren/04.jpg"
+          ],
+          "description": "Spuren"
+        },
+        {
           "slug": "vater_tochter",
           "title": "Vater.Tochter.\n===EN===\nFather. Daughter",
           "text": ",Vater. Tochter‘ zeigt ein gegenseitiges Porträt von Vater und Tochter. Jeder hat den Anderen so inszeniert und das Foto ausgewählt, welches seiner Meinung nach den Anderen repräsentiert.\n===EN===\n“Father. Daughter” presents a mutual portrait of a father and daughter. Each person staged the other and selected the photo that, in their opinion, best represents the other.",
@@ -347,18 +359,6 @@
             "01_Fotografie/vater_tochter/01.jpg": "Geeske Janßen",
             "01_Fotografie/vater_tochter/02.jpg": "Walter Janßen"
           }
-        },
-        {
-          "slug": "spuren",
-          "title": "Spuren",
-          "text": "4-teilige Serie c-print Hahnemühle Photo Rag Bright White auf Aludibond 40x60 2021\n\n„Spuren“ beschäftigt sich mit den Hinterlassenschaften, die eine Stadt formen. Die von Urin geformten Abdrücke von Tieren zeigen auf, wie das Stadtbild temporär gestaltet wird. Die Detailaufnahmen lassen die Betrachtenden in die Schönheit des Materials versinken. Körperausscheidungen werden auf diese Weise in anderer Struktur oder Skulpturalität betrachtet.",
-          "images": [
-            "01_Fotografie/spuren/01.jpg",
-            "01_Fotografie/spuren/02.jpg",
-            "01_Fotografie/spuren/03.jpg",
-            "01_Fotografie/spuren/04.jpg"
-          ],
-          "description": "Spuren"
         }
       ]
     },
