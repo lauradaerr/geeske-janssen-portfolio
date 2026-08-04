@@ -231,6 +231,16 @@
           "description": "Publikation · Hardcover · 200 Seiten · ISBN 978-3-00-072118-2 · Auflage 100 Stück · Hg. Ensemble 23"
         },
         {
+          "slug": "huellen",
+          "title": "Hüllen",
+          "text": "„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.",
+          "images": [
+            "01_Fotografie/huellen/01.jpg",
+            "01_Fotografie/huellen/02.jpg"
+          ],
+          "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
+        },
+        {
           "slug": "fischerei",
           "title": "Fischerei",
           "text": "80x120 2020\n\nDie Arbeit „Fischerei“ beschäftigt sich mit dem Handwerk traditioneller Fischerei. Fisch als Massenprodukt lässt das Handwerk verschwinden, an Stelle dessen tritt die Industrie. Diese drei Bilder sind Sinnbilder der Fischerei.\n\nAusstellungsansicht, BACK&FORTH, HALLE14, Zentrum für zeitgenössische, Leipzig, 2020",
@@ -241,16 +251,6 @@
             "01_Fotografie/fischerei/04.png"
           ],
           "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt"
-        },
-        {
-          "slug": "huellen",
-          "title": "Hüllen",
-          "text": "„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.",
-          "images": [
-            "01_Fotografie/huellen/01.jpg",
-            "01_Fotografie/huellen/02.jpg"
-          ],
-          "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
           "slug": "all_inclusive",
