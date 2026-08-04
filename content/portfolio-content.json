@@ -214,6 +214,16 @@
           "description": "Fotografie · 2017 · c-prints · 50x75 cm"
         },
         {
+          "slug": "huellen",
+          "title": "Hüllen",
+          "text": "„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.",
+          "images": [
+            "01_Fotografie/huellen/01.jpg",
+            "01_Fotografie/huellen/02.jpg"
+          ],
+          "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
+        },
+        {
           "slug": "alle_tage",
           "title": "Alle Tage",
           "text": "Ausstellungsansicht Kulturhaus Müller, Ganderkesee",
@@ -230,16 +240,6 @@
             "01_Fotografie/alle_tage/10.png"
           ],
           "description": "Fotografie · 10-teilige Serie · c-print auf Aludibond gerahmt · 2019"
-        },
-        {
-          "slug": "huellen",
-          "title": "Hüllen",
-          "text": "„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.",
-          "images": [
-            "01_Fotografie/huellen/01.jpg",
-            "01_Fotografie/huellen/02.jpg"
-          ],
-          "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
           "slug": "lean_on_me",
