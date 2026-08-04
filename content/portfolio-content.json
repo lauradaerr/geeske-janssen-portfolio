@@ -263,18 +263,6 @@
           "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
         },
         {
-          "slug": "spuren",
-          "title": "Spuren",
-          "text": "4-teilige Serie c-print Hahnemühle Photo Rag Bright White auf Aludibond 40x60 2021\n\n„Spuren“ beschäftigt sich mit den Hinterlassenschaften, die eine Stadt formen. Die von Urin geformten Abdrücke von Tieren zeigen auf, wie das Stadtbild temporär gestaltet wird. Die Detailaufnahmen lassen die Betrachtenden in die Schönheit des Materials versinken. Körperausscheidungen werden auf diese Weise in anderer Struktur oder Skulpturalität betrachtet.",
-          "images": [
-            "01_Fotografie/spuren/01.jpg",
-            "01_Fotografie/spuren/02.jpg",
-            "01_Fotografie/spuren/03.jpg",
-            "01_Fotografie/spuren/04.jpg"
-          ],
-          "description": "Spuren"
-        },
-        {
           "slug": "on_the_floor",
           "title": "on the floor",
           "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.",
@@ -286,6 +274,18 @@
             "01_Fotografie/on_the_floor/05.jpg"
           ],
           "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
+        },
+        {
+          "slug": "spuren",
+          "title": "Spuren",
+          "text": "4-teilige Serie c-print Hahnemühle Photo Rag Bright White auf Aludibond 40x60 2021\n\n„Spuren“ beschäftigt sich mit den Hinterlassenschaften, die eine Stadt formen. Die von Urin geformten Abdrücke von Tieren zeigen auf, wie das Stadtbild temporär gestaltet wird. Die Detailaufnahmen lassen die Betrachtenden in die Schönheit des Materials versinken. Körperausscheidungen werden auf diese Weise in anderer Struktur oder Skulpturalität betrachtet.",
+          "images": [
+            "01_Fotografie/spuren/01.jpg",
+            "01_Fotografie/spuren/02.jpg",
+            "01_Fotografie/spuren/03.jpg",
+            "01_Fotografie/spuren/04.jpg"
+          ],
+          "description": "Spuren"
         },
         {
           "slug": "alle_tage",
