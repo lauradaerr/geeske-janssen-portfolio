@@ -323,17 +323,6 @@
           "description": "Fotografie · 2017 · c-prints · 50x75 cm"
         },
         {
-          "slug": "der_bauernhof",
-          "title": "Der Bauernhof",
-          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
-          "images": [
-            "01_Fotografie/der_bauernhof/01.png",
-            "01_Fotografie/der_bauernhof/02.png",
-            "01_Fotografie/der_bauernhof/03.png"
-          ],
-          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
-        },
-        {
           "slug": "schatzstrasse",
           "title": "Schatzstraße",
           "text": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig",
@@ -345,6 +334,17 @@
             "01_Fotografie/schatzstrasse/05.png"
           ],
           "description": "Fotografie · 2017 · c-print auf Aludibond · 50x75"
+        },
+        {
+          "slug": "der_bauernhof",
+          "title": "Der Bauernhof",
+          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
+          "images": [
+            "01_Fotografie/der_bauernhof/01.png",
+            "01_Fotografie/der_bauernhof/02.png",
+            "01_Fotografie/der_bauernhof/03.png"
+          ],
+          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
         },
         {
           "slug": "vater_tochter",
