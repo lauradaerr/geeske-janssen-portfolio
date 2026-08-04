@@ -138,6 +138,18 @@
           ],
           "description": "Video · 2017 · 0:56 Min",
           "videoUrl": "https://vimeo.com/351866061"
+        },
+        {
+          "slug": "monika",
+          "title": "Monika\n===EN===\nMonika",
+          "text": "Der dokumentarische Kurzfilm „Monika“ erzählt von der Beziehung zwischen einem Menschen und einem Gegenstand. Szenen aus einem Interview mit dem Besitzer der Sexpuppe Monika geben Einblicke in das Erleben von Intimität und Nähe, die ihm anders versagt bleiben würden. „Monika“ zeigt die positiven Auswirkungen des Besitzes und der Nutzung von Sexpuppen und thematisiert gleichzeitig Einsamkeit, Stigmatisierung und Ängste.\n===EN===\n„Monika“ tells of the intimate relationship between a person and an object. Scenes from an interview with the owner of the sex doll Monika provide insights into the experience of intimacy and physical closeness that would otherwise be denied to him. “Monika” shows the positive effects of owning and using sex dolls and at the same time addresses loneliness, stigmatization and fears.",
+          "images": [
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835273251_monika_1.png",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835275515_monika_2.png",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785835276972_monika_3.png"
+          ],
+          "description": "Dokumentarischer Kurzfilm, 12 min, 2024",
+          "videoUrl": "https://vimeo.com/manage/videos/1181478066"
         }
       ]
     },
