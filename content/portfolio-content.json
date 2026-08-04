@@ -285,17 +285,6 @@
           "description": "Publikation · Hardcover · 200 Seiten · ISBN 978-3-00-072118-2 · Auflage 100 Stück · Hg. Ensemble 23"
         },
         {
-          "slug": "der_bauernhof",
-          "title": "Der Bauernhof",
-          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
-          "images": [
-            "01_Fotografie/der_bauernhof/01.png",
-            "01_Fotografie/der_bauernhof/02.png",
-            "01_Fotografie/der_bauernhof/03.png"
-          ],
-          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
-        },
-        {
           "slug": "spuren",
           "title": "Spuren",
           "text": "4-teilige Serie c-print Hahnemühle Photo Rag Bright White auf Aludibond 40x60 2021\n\n„Spuren“ beschäftigt sich mit den Hinterlassenschaften, die eine Stadt formen. Die von Urin geformten Abdrücke von Tieren zeigen auf, wie das Stadtbild temporär gestaltet wird. Die Detailaufnahmen lassen die Betrachtenden in die Schönheit des Materials versinken. Körperausscheidungen werden auf diese Weise in anderer Struktur oder Skulpturalität betrachtet.",
@@ -306,6 +295,17 @@
             "01_Fotografie/spuren/04.jpg"
           ],
           "description": "Spuren"
+        },
+        {
+          "slug": "der_bauernhof",
+          "title": "Der Bauernhof",
+          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
+          "images": [
+            "01_Fotografie/der_bauernhof/01.png",
+            "01_Fotografie/der_bauernhof/02.png",
+            "01_Fotografie/der_bauernhof/03.png"
+          ],
+          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
         },
         {
           "slug": "you_have_finally_reached_the_most_important_place_on_earth",
