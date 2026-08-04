@@ -220,6 +220,18 @@
           "description": "Fotografie · 10-teilige Serie · c-print auf Aludibond gerahmt · 2019"
         },
         {
+          "slug": "all_inclusive",
+          "title": "ALL INCLUSIVE",
+          "text": "",
+          "images": [
+            "01_Fotografie/all_inclusive/01.png",
+            "01_Fotografie/all_inclusive/02.png",
+            "01_Fotografie/all_inclusive/03.png",
+            "01_Fotografie/all_inclusive/04.png"
+          ],
+          "description": "Fotografie · 2017 · c-prints · 50x75 cm"
+        },
+        {
           "slug": "schatzstrasse",
           "title": "Schatzstraße",
           "text": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig",
@@ -231,18 +243,6 @@
             "01_Fotografie/schatzstrasse/05.png"
           ],
           "description": "Fotografie · 2017 · c-print auf Aludibond · 50x75"
-        },
-        {
-          "slug": "all_inclusive",
-          "title": "ALL INCLUSIVE",
-          "text": "",
-          "images": [
-            "01_Fotografie/all_inclusive/01.png",
-            "01_Fotografie/all_inclusive/02.png",
-            "01_Fotografie/all_inclusive/03.png",
-            "01_Fotografie/all_inclusive/04.png"
-          ],
-          "description": "Fotografie · 2017 · c-prints · 50x75 cm"
         },
         {
           "slug": "huellen",
