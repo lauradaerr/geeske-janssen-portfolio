@@ -224,6 +224,16 @@
           "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
+          "slug": "representation",
+          "title": "representation\n===EN===\nrepresentation",
+          "text": "Die Arbeit \"representation\" bezieht sich auf die Darstellung oder den Eindruck, den die Amische Kultur auf Touristen hat. Die Fotografien zeigen die verschiedenen Objekte, die in touristischen Amischen Dörfern und Städten verkauft werden und zu sehen sind, wie eigene Kartenspiele, medizinische Produkte, religiöse Bücher, aber auch Überwachungskameras. Die traditionelle Amische Kultur trifft auf die moderne, weltliche Gesellschaft. Hierbei kollidiert die Sehnsucht der Touristen nach einem einfachen Leben mit dem Verkaufsalltag, den sie in den touristischen Amischen Orten erleben. Die Fotografien sind digital aufgenommen worden, aber als Cyanotypien entwickelt, um das Thema der Arbeit, das Aufeinandertreffen des Neuen auf das Alte zu verdeutlichen, vom Bildinhalt zu den Aufnahmen und Druckverfahren.\n===EN===\nThe work “representation” refers to the portrayal or impression that Amish culture makes on tourists. The photographs depict the various items sold and on display in Amish tourist villages and towns, such as their own playing cards, medical products, religious books, and even surveillance cameras. Traditional Amish culture meets modern, secular society. Here, tourists’ longing for a simple life clashes with the everyday commercial reality they experience in Amish tourist destinations. The photographs were taken digitally but developed as cyanotypes to illustrate the work’s theme. The clash between the new and the old, from the subject matter to the photographic process and printing technique.",
+          "images": [
+            "01_Fotografie/representation/01.jpg",
+            "01_Fotografie/representation/02.png"
+          ],
+          "description": "Fotografie, 19-teilige Serie, · Cyanotypie, verschiedene Größen\r\n\r\nPhotography, 19-part series, · cyanotype  · various sizes"
+        },
+        {
           "slug": "alle_tage",
           "title": "Alle Tage",
           "text": "Ausstellungsansicht Kulturhaus Müller, Ganderkesee",
@@ -240,16 +250,6 @@
             "01_Fotografie/alle_tage/10.png"
           ],
           "description": "Fotografie · 10-teilige Serie · c-print auf Aludibond gerahmt · 2019"
-        },
-        {
-          "slug": "representation",
-          "title": "representation\n===EN===\nrepresentation",
-          "text": "Die Arbeit \"representation\" bezieht sich auf die Darstellung oder den Eindruck, den die Amische Kultur auf Touristen hat. Die Fotografien zeigen die verschiedenen Objekte, die in touristischen Amischen Dörfern und Städten verkauft werden und zu sehen sind, wie eigene Kartenspiele, medizinische Produkte, religiöse Bücher, aber auch Überwachungskameras. Die traditionelle Amische Kultur trifft auf die moderne, weltliche Gesellschaft. Hierbei kollidiert die Sehnsucht der Touristen nach einem einfachen Leben mit dem Verkaufsalltag, den sie in den touristischen Amischen Orten erleben. Die Fotografien sind digital aufgenommen worden, aber als Cyanotypien entwickelt, um das Thema der Arbeit, das Aufeinandertreffen des Neuen auf das Alte zu verdeutlichen, vom Bildinhalt zu den Aufnahmen und Druckverfahren.\n===EN===\nThe work “representation” refers to the portrayal or impression that Amish culture makes on tourists. The photographs depict the various items sold and on display in Amish tourist villages and towns, such as their own playing cards, medical products, religious books, and even surveillance cameras. Traditional Amish culture meets modern, secular society. Here, tourists’ longing for a simple life clashes with the everyday commercial reality they experience in Amish tourist destinations. The photographs were taken digitally but developed as cyanotypes to illustrate the work’s theme. The clash between the new and the old, from the subject matter to the photographic process and printing technique.",
-          "images": [
-            "01_Fotografie/representation/01.jpg",
-            "01_Fotografie/representation/02.png"
-          ],
-          "description": "Fotografie, 19-teilige Serie, · Cyanotypie, verschiedene Größen\r\n\r\nPhotography, 19-part series, · cyanotype  · various sizes"
         },
         {
           "slug": "lean_on_me",
