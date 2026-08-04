@@ -264,18 +264,6 @@
           "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
         },
         {
-          "slug": "all_inclusive",
-          "title": "ALL INCLUSIVE",
-          "text": "",
-          "images": [
-            "01_Fotografie/all_inclusive/01.png",
-            "01_Fotografie/all_inclusive/02.png",
-            "01_Fotografie/all_inclusive/03.png",
-            "01_Fotografie/all_inclusive/04.png"
-          ],
-          "description": "Fotografie · 2017 · c-prints · 50x75 cm"
-        },
-        {
           "slug": "spuren",
           "title": "Spuren",
           "text": "4-teilige Serie c-print Hahnemühle Photo Rag Bright White auf Aludibond 40x60 2021\n\n„Spuren“ beschäftigt sich mit den Hinterlassenschaften, die eine Stadt formen. Die von Urin geformten Abdrücke von Tieren zeigen auf, wie das Stadtbild temporär gestaltet wird. Die Detailaufnahmen lassen die Betrachtenden in die Schönheit des Materials versinken. Körperausscheidungen werden auf diese Weise in anderer Struktur oder Skulpturalität betrachtet.",
@@ -286,6 +274,18 @@
             "01_Fotografie/spuren/04.jpg"
           ],
           "description": "Spuren"
+        },
+        {
+          "slug": "all_inclusive",
+          "title": "ALL INCLUSIVE",
+          "text": "",
+          "images": [
+            "01_Fotografie/all_inclusive/01.png",
+            "01_Fotografie/all_inclusive/02.png",
+            "01_Fotografie/all_inclusive/03.png",
+            "01_Fotografie/all_inclusive/04.png"
+          ],
+          "description": "Fotografie · 2017 · c-prints · 50x75 cm"
         },
         {
           "slug": "alle_tage",
