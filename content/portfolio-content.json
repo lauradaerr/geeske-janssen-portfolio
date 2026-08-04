@@ -243,6 +243,16 @@
           "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt"
         },
         {
+          "slug": "huellen",
+          "title": "Hüllen",
+          "text": "„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.",
+          "images": [
+            "01_Fotografie/huellen/01.jpg",
+            "01_Fotografie/huellen/02.jpg"
+          ],
+          "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
+        },
+        {
           "slug": "all_inclusive",
           "title": "ALL INCLUSIVE",
           "text": "",
@@ -253,16 +263,6 @@
             "01_Fotografie/all_inclusive/04.png"
           ],
           "description": "Fotografie · 2017 · c-prints · 50x75 cm"
-        },
-        {
-          "slug": "huellen",
-          "title": "Hüllen",
-          "text": "„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.",
-          "images": [
-            "01_Fotografie/huellen/01.jpg",
-            "01_Fotografie/huellen/02.jpg"
-          ],
-          "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
           "slug": "lean_on_me",
