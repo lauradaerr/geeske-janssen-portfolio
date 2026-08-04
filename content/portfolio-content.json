@@ -218,18 +218,6 @@
           "description": "Publikation · Hardcover · 200 Seiten · ISBN 978-3-00-072118-2 · Auflage 100 Stück · Hg. Ensemble 23"
         },
         {
-          "slug": "fischerei",
-          "title": "Fischerei",
-          "text": "80x120 2020\n\nDie Arbeit „Fischerei“ beschäftigt sich mit dem Handwerk traditioneller Fischerei. Fisch als Massenprodukt lässt das Handwerk verschwinden, an Stelle dessen tritt die Industrie. Diese drei Bilder sind Sinnbilder der Fischerei.\n\nAusstellungsansicht, BACK&FORTH, HALLE14, Zentrum für zeitgenössische, Leipzig, 2020",
-          "images": [
-            "01_Fotografie/fischerei/01.png",
-            "01_Fotografie/fischerei/02.png",
-            "01_Fotografie/fischerei/03.png",
-            "01_Fotografie/fischerei/04.png"
-          ],
-          "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt"
-        },
-        {
           "slug": "on_the_floor",
           "title": "on the floor",
           "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.",
@@ -241,6 +229,18 @@
             "01_Fotografie/on_the_floor/05.jpg"
           ],
           "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
+        },
+        {
+          "slug": "fischerei",
+          "title": "Fischerei",
+          "text": "80x120 2020\n\nDie Arbeit „Fischerei“ beschäftigt sich mit dem Handwerk traditioneller Fischerei. Fisch als Massenprodukt lässt das Handwerk verschwinden, an Stelle dessen tritt die Industrie. Diese drei Bilder sind Sinnbilder der Fischerei.\n\nAusstellungsansicht, BACK&FORTH, HALLE14, Zentrum für zeitgenössische, Leipzig, 2020",
+          "images": [
+            "01_Fotografie/fischerei/01.png",
+            "01_Fotografie/fischerei/02.png",
+            "01_Fotografie/fischerei/03.png",
+            "01_Fotografie/fischerei/04.png"
+          ],
+          "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt"
         },
         {
           "slug": "all_inclusive",
