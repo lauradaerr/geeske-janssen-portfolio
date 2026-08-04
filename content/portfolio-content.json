@@ -297,6 +297,15 @@
           "description": "Spuren"
         },
         {
+          "slug": "you_have_finally_reached_the_most_important_place_on_earth",
+          "title": "You Have Finally Reached The Most Important Place On Earth\n===EN===\nYou Have Finally Reached The Most Important Place On Earth",
+          "text": "*In irgendeinem Winkel des in zahllose Städte und Dörfer zerfallenden Deutschlands gab es einmal ein Dorf, in dem ein kluges Tier das Erkennen fand. Nach wenigen Jahren erstarrte\r\nsein Denken und zurück blieb ein Haus, eine Kirche und eine Wiese, in die sich Gedanken verborgen hatten.*\r\n\r\nFriedrich Nietzsche\r\n\r\nDie Publikation ist eine Dokumentation des Lebens in dem kleinen Dorf Röcken in Sachsen-Anhalt. Es steht für Kohleabbau, aber auch als Geburtsort von Friedrich Nietzsche. Es zeigt\r\ndie Veränderungen des Dorfes durch die DDR, die Wende und Landflucht und thematisiert Zusammenhalt, Dorfidylle, Sehnsüchte nach Ursprünglichkeit und geistiger Herkunft. \r\n\r\nÜber ein Jahr wurde das Dorf fotografiert und Interviews mit Dorfbewohnern, sowie internationalen Gästen geführt. Außerdem werden Auszüge aus Gästebüchern der Nietzsche-Gedenkstätte der letzten 20 Jahre sowie Zitate aus Friedrich Nietzsches\r\nWerken präsentiert.\n===EN===\n*In some corner of Germany—a country fragmented into countless towns and villages—there was once a village where a wise creature found enlightenment. After a few years,\r\nits thinking froze, and all that remained was a house, a church, and a meadow where thoughts had hidden themselves.\r\n*\r\nFriedrich Nietzsche\r\n\r\n\r\nThis publication documents life in the small village of Röcken in Saxony-Anhalt. The village is known for coal mining, but it is also the birthplace of Friedrich Nietzsche. It illustrates\r\nthe changes the village underwent during the GDR era, the fall of the Berlin Wall, and rural exodus, and explores themes of community, village idyll, a longing for authenticity, and intellectual heritage.\r\n\r\nFor over a year, the village was photographed, and interviews were conducted with villagers and international guests. The book also features excerpts from the guestbooks of the Nietzsche Memorial over the past 20 years, as well as quotations from Friedrich Nietzsche’s\r\nworks.",
+          "images": [
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1785837381385_dsf7958_kopie.jpg"
+          ],
+          "description": "Publikation · 196-Seiten · Auflage 100 · 17 cm x 24 cm · 2022"
+        },
+        {
           "slug": "der_bauernhof",
           "title": "Der Bauernhof",
           "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
@@ -306,15 +315,6 @@
             "01_Fotografie/der_bauernhof/03.png"
           ],
           "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
-        },
-        {
-          "slug": "you_have_finally_reached_the_most_important_place_on_earth",
-          "title": "You Have Finally Reached The Most Important Place On Earth\n===EN===\nYou Have Finally Reached The Most Important Place On Earth",
-          "text": "*In irgendeinem Winkel des in zahllose Städte und Dörfer zerfallenden Deutschlands gab es einmal ein Dorf, in dem ein kluges Tier das Erkennen fand. Nach wenigen Jahren erstarrte\r\nsein Denken und zurück blieb ein Haus, eine Kirche und eine Wiese, in die sich Gedanken verborgen hatten.*\r\n\r\nFriedrich Nietzsche\r\n\r\nDie Publikation ist eine Dokumentation des Lebens in dem kleinen Dorf Röcken in Sachsen-Anhalt. Es steht für Kohleabbau, aber auch als Geburtsort von Friedrich Nietzsche. Es zeigt\r\ndie Veränderungen des Dorfes durch die DDR, die Wende und Landflucht und thematisiert Zusammenhalt, Dorfidylle, Sehnsüchte nach Ursprünglichkeit und geistiger Herkunft. \r\n\r\nÜber ein Jahr wurde das Dorf fotografiert und Interviews mit Dorfbewohnern, sowie internationalen Gästen geführt. Außerdem werden Auszüge aus Gästebüchern der Nietzsche-Gedenkstätte der letzten 20 Jahre sowie Zitate aus Friedrich Nietzsches\r\nWerken präsentiert.\n===EN===\n*In some corner of Germany—a country fragmented into countless towns and villages—there was once a village where a wise creature found enlightenment. After a few years,\r\nits thinking froze, and all that remained was a house, a church, and a meadow where thoughts had hidden themselves.\r\n*\r\nFriedrich Nietzsche\r\n\r\n\r\nThis publication documents life in the small village of Röcken in Saxony-Anhalt. The village is known for coal mining, but it is also the birthplace of Friedrich Nietzsche. It illustrates\r\nthe changes the village underwent during the GDR era, the fall of the Berlin Wall, and rural exodus, and explores themes of community, village idyll, a longing for authenticity, and intellectual heritage.\r\n\r\nFor over a year, the village was photographed, and interviews were conducted with villagers and international guests. The book also features excerpts from the guestbooks of the Nietzsche Memorial over the past 20 years, as well as quotations from Friedrich Nietzsche’s\r\nworks.",
-          "images": [
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1785837381385_dsf7958_kopie.jpg"
-          ],
-          "description": "Publikation · 196-Seiten · Auflage 100 · 17 cm x 24 cm · 2022"
         },
         {
           "slug": "on_the_floor",
