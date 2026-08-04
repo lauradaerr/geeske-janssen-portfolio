@@ -104,18 +104,6 @@
           "description": "Video · 2:50 min · 2019"
         },
         {
-          "slug": "auf_die_alte_weise",
-          "title": "Auf die alte Weise\n===EN===\nOf The Old School",
-          "text": "Ein dokumentarischer Kurzfilm über eine traditionelle Hausschlachtung. Licht, Oberflächen, unterschiedlichste Strukturen, unbekannte Geräusche. Es erinnert an alte Meister und vergangene Zeiten.\n===EN===\nA short documentary film about a traditional home slaughter. Light, surfaces, a wide variety of textures, unfamiliar sounds. It evokes the old masters and times gone by.",
-          "images": [
-            "02_Video/auf_die_alte_weise/01.png",
-            "02_Video/auf_die_alte_weise/02.png",
-            "02_Video/auf_die_alte_weise/03.png"
-          ],
-          "description": "Film · 2018 · 2 min",
-          "videoUrl": "https://vimeo.com/399671824?share=copy&fl=sv&fe=ci"
-        },
-        {
           "slug": "monika",
           "title": "Monika\n===EN===\nMonika",
           "text": "Der dokumentarische Kurzfilm „Monika“ erzählt von der Beziehung zwischen einem Menschen und einem Gegenstand. Szenen aus einem Interview mit dem Besitzer der Sexpuppe Monika geben Einblicke in das Erleben von Intimität und Nähe, die ihm anders versagt bleiben würden. „Monika“ zeigt die positiven Auswirkungen des Besitzes und der Nutzung von Sexpuppen und thematisiert gleichzeitig Einsamkeit, Stigmatisierung und Ängste.\n===EN===\n„Monika“ tells of the intimate relationship between a person and an object. Scenes from an interview with the owner of the sex doll Monika provide insights into the experience of intimacy and physical closeness that would otherwise be denied to him. “Monika” shows the positive effects of owning and using sex dolls and at the same time addresses loneliness, stigmatization and fears.",
@@ -126,6 +114,18 @@
           ],
           "description": "Dokumentarischer Kurzfilm, 12 min, 2024",
           "videoUrl": "https://vimeo.com/manage/videos/1181478066"
+        },
+        {
+          "slug": "auf_die_alte_weise",
+          "title": "Auf die alte Weise\n===EN===\nOf The Old School",
+          "text": "Ein dokumentarischer Kurzfilm über eine traditionelle Hausschlachtung. Licht, Oberflächen, unterschiedlichste Strukturen, unbekannte Geräusche. Es erinnert an alte Meister und vergangene Zeiten.\n===EN===\nA short documentary film about a traditional home slaughter. Light, surfaces, a wide variety of textures, unfamiliar sounds. It evokes the old masters and times gone by.",
+          "images": [
+            "02_Video/auf_die_alte_weise/01.png",
+            "02_Video/auf_die_alte_weise/02.png",
+            "02_Video/auf_die_alte_weise/03.png"
+          ],
+          "description": "Film · 2018 · 2 min",
+          "videoUrl": "https://vimeo.com/399671824?share=copy&fl=sv&fe=ci"
         },
         {
           "slug": "inside_out",
