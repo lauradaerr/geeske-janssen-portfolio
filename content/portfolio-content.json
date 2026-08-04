@@ -255,17 +255,6 @@
           "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
-          "slug": "der_bauernhof",
-          "title": "Der Bauernhof",
-          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
-          "images": [
-            "01_Fotografie/der_bauernhof/01.png",
-            "01_Fotografie/der_bauernhof/02.png",
-            "01_Fotografie/der_bauernhof/03.png"
-          ],
-          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
-        },
-        {
           "slug": "lean_on_me",
           "title": "lean on me",
           "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
@@ -275,6 +264,17 @@
             "01_Fotografie/lean_on_me/03.png"
           ],
           "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
+        },
+        {
+          "slug": "der_bauernhof",
+          "title": "Der Bauernhof",
+          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
+          "images": [
+            "01_Fotografie/der_bauernhof/01.png",
+            "01_Fotografie/der_bauernhof/02.png",
+            "01_Fotografie/der_bauernhof/03.png"
+          ],
+          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
         },
         {
           "slug": "representation",
