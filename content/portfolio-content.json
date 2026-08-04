@@ -242,6 +242,17 @@
           "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
+          "slug": "lean_on_me",
+          "title": "lean on me",
+          "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
+          "images": [
+            "01_Fotografie/lean_on_me/01.png",
+            "01_Fotografie/lean_on_me/02.png",
+            "01_Fotografie/lean_on_me/03.png"
+          ],
+          "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
+        },
+        {
           "slug": "schatzstrasse",
           "title": "Schatzstraße",
           "text": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig",
@@ -253,17 +264,6 @@
             "01_Fotografie/schatzstrasse/05.png"
           ],
           "description": "Fotografie · 2017 · c-print auf Aludibond · 50x75"
-        },
-        {
-          "slug": "lean_on_me",
-          "title": "lean on me",
-          "text": "“Lean On Me” ist eine soziale Skulptur. Es ist eine Arbeit, die sich mit dem Zusammenspiel von Körpern beschäftigt. In welcher Verbindung stehen wir zueinander? Wer hält wen? Wer gibt Kraft und wer hat die Möglichkeit leicht zu sein?",
-          "images": [
-            "01_Fotografie/lean_on_me/01.png",
-            "01_Fotografie/lean_on_me/02.png",
-            "01_Fotografie/lean_on_me/03.png"
-          ],
-          "description": "Fotografie · 3-teilige Serie · c-print auf Fahnenstoff · 120x180 · 2020"
         },
         {
           "slug": "representation",
