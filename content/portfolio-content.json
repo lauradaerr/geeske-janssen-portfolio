@@ -190,6 +190,18 @@
           "description": "15-teilige Fotoserie\r\n15 x 20 cm\r\nC-Print auf Barytpapier\r\n2023"
         },
         {
+          "slug": "fischerei",
+          "title": "Fischerei",
+          "text": "80x120 2020\n\nDie Arbeit „Fischerei“ beschäftigt sich mit dem Handwerk traditioneller Fischerei. Fisch als Massenprodukt lässt das Handwerk verschwinden, an Stelle dessen tritt die Industrie. Diese drei Bilder sind Sinnbilder der Fischerei.\n\nAusstellungsansicht, BACK&FORTH, HALLE14, Zentrum für zeitgenössische, Leipzig, 2020",
+          "images": [
+            "01_Fotografie/fischerei/01.png",
+            "01_Fotografie/fischerei/02.png",
+            "01_Fotografie/fischerei/03.png",
+            "01_Fotografie/fischerei/04.png"
+          ],
+          "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt"
+        },
+        {
           "slug": "schatzstrasse",
           "title": "Schatzstraße",
           "text": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig",
@@ -201,18 +213,6 @@
             "01_Fotografie/schatzstrasse/05.png"
           ],
           "description": "Fotografie · 2017 · c-print auf Aludibond · 50x75"
-        },
-        {
-          "slug": "fischerei",
-          "title": "Fischerei",
-          "text": "80x120 2020\n\nDie Arbeit „Fischerei“ beschäftigt sich mit dem Handwerk traditioneller Fischerei. Fisch als Massenprodukt lässt das Handwerk verschwinden, an Stelle dessen tritt die Industrie. Diese drei Bilder sind Sinnbilder der Fischerei.\n\nAusstellungsansicht, BACK&FORTH, HALLE14, Zentrum für zeitgenössische, Leipzig, 2020",
-          "images": [
-            "01_Fotografie/fischerei/01.png",
-            "01_Fotografie/fischerei/02.png",
-            "01_Fotografie/fischerei/03.png",
-            "01_Fotografie/fischerei/04.png"
-          ],
-          "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt"
         },
         {
           "slug": "alle_tage",
