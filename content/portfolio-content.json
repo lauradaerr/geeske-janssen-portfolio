@@ -242,16 +242,6 @@
           "description": "Fotografie · 2017 · c-prints · 50x75 cm"
         },
         {
-          "slug": "huellen",
-          "title": "Hüllen",
-          "text": "„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.",
-          "images": [
-            "01_Fotografie/huellen/01.jpg",
-            "01_Fotografie/huellen/02.jpg"
-          ],
-          "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
-        },
-        {
           "slug": "on_the_floor",
           "title": "on the floor",
           "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.",
@@ -263,6 +253,16 @@
             "01_Fotografie/on_the_floor/05.jpg"
           ],
           "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
+        },
+        {
+          "slug": "huellen",
+          "title": "Hüllen",
+          "text": "„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.",
+          "images": [
+            "01_Fotografie/huellen/01.jpg",
+            "01_Fotografie/huellen/02.jpg"
+          ],
+          "description": "Projektion auf · Völkerschlachtdenkmal · 91x130 Meter · 2021"
         },
         {
           "slug": "lean_on_me",
