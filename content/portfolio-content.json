@@ -31,7 +31,12 @@
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785836051488_2023_11_01_khk_graduiert.jpg"
           ],
           "description": "Dokumentarischer Kurzfilm · 12 min · 2024",
-          "videoUrl": "https://vimeo.com/manage/videos/1181478066"
+          "videoUrl": "https://vimeo.com/manage/videos/1181478066",
+          "imageCredits": {
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785836049118_2023_11_01_khk_graduiert.jpg": "Kasseler Kunstverein",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785836050304_2023_11_01_khk_graduiert.jpg": "Kasseler Kunstverein",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1785836051488_2023_11_01_khk_graduiert.jpg": "Kasseler Kunstverein"
+          }
         },
         {
           "slug": "umkreisen",
