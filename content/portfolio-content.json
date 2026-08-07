@@ -486,14 +486,20 @@
         {
           "slug": "die_kindliche_kaiserin",
           "title": "Die Kindliche Kaiserin",
-          "text": "Die Kindliche Kaiserin“ ist eine Installation die nach Phantasien sucht. Die Künstlerinnen Laura Därr und Geeske Janßen haben sich dem Verlieren von Phantasie und Entdecken von neuen Wirklichkeiten gewidmet. Die Suche nach der Kindheit, welche zu schnell vergeht und der hinterher getrauert wird. Die Freiheit alles zu Fragen, in Frage zu stellen, sich keinen Konventionen und Formen bewusst zu sein. Eigene Welten aufzubauen, in welchen alles den selbstbestimmten Weg geht. Das eigene Phantasien: wieso hat man es so einfach gehen lassen. Kommt es wieder? Wann ist das Tor dieser Welt zu? Utopien und Visionen werden gelenkt und dürfen sich nicht frei entfalten. Was passiert, wenn der eigen erdachte Ort Phantasien enthüllt und zerstört ist? Die kindliche Kaiserin lädt ein diese inszenierte Wirklichkeit aus Sound, Video, Installation, Performance in der galerie KUB zu erkunden. Gefördert von dem Kulturamt der Stadt Leipzig\n\nBilder © Laura Därr",
+          "text": "\"Die Kindliche Kaiserin“ ist eine Installation die nach Phantasien sucht. Die Künstlerinnen Laura Därr und Geeske Janßen haben sich dem Verlieren von Phantasie und Entdecken von neuen Wirklichkeiten gewidmet. Die Suche nach der Kindheit, welche zu schnell vergeht und der hinterher getrauert wird. Die Freiheit alles zu Fragen, in Frage zu stellen, sich keinen Konventionen und Formen bewusst zu sein. Eigene Welten aufzubauen, in welchen alles den selbstbestimmten Weg geht. Das eigene Phantasien: wieso hat man es so einfach gehen lassen. Kommt es wieder? Wann ist das Tor dieser Welt zu? Utopien und Visionen werden gelenkt und dürfen sich nicht frei entfalten. Was passiert, wenn der eigen erdachte Ort Phantasien enthüllt und zerstört ist? Die kindliche Kaiserin lädt ein diese inszenierte Wirklichkeit aus Sound, Video, Installation, Performance in der galerie KUB zu erkunden. \r\n\r\nGefördert von dem Kulturamt der Stadt Leipzig",
           "images": [
             "04_Performance/die_kindliche_kaiserin/01.png",
             "04_Performance/die_kindliche_kaiserin/02.png",
             "04_Performance/die_kindliche_kaiserin/03.png",
             "04_Performance/die_kindliche_kaiserin/04.png"
           ],
-          "description": "Performative Installation · Zusammenarbeit mit Laura Därr · 2016"
+          "description": "Performative Installation · Zusammenarbeit mit Laura Därr · 2016",
+          "imageCredits": {
+            "04_Performance/die_kindliche_kaiserin/01.png": "© Laura Därr",
+            "04_Performance/die_kindliche_kaiserin/02.png": "© Laura Därr",
+            "04_Performance/die_kindliche_kaiserin/03.png": "© Laura Därr",
+            "04_Performance/die_kindliche_kaiserin/04.png": "© Laura Därr"
+          }
         },
         {
           "slug": "magst_du",
