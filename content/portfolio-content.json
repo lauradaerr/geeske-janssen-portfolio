@@ -391,7 +391,10 @@
             "03_Installation/begegnungen/01.jpg"
           ],
           "description": "Audio 13:26 min ·  Print auf Fahnenstoff · 150x415, 200x350, 300x240 · 2021",
-          "videoUrl": "https://vimeo.com/570849916"
+          "videoUrl": "https://vimeo.com/570849916",
+          "imageCredits": {
+            "03_Installation/begegnungen/01.jpg": "Kasseler Kunstverein"
+          }
         },
         {
           "slug": "standby",
