@@ -62,7 +62,11 @@
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1786102724968_bildschirmfoto_2021_06_0.jpg"
           ],
           "description": "3:03 min · 2021",
-          "videoUrl": "https://vimeo.com/558565117"
+          "videoUrl": "https://vimeo.com/558565117",
+          "imageSizes": {
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1786102699143_bildschirmfoto_2021_06_0.jpg": "s",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1786102722906_bildschirmfoto_2021_06_0.jpg": "s"
+          }
         },
         {
           "slug": "venus",
