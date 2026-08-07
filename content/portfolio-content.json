@@ -395,7 +395,9 @@
           "description": "Audio 13:26 min ·  Print auf Fahnenstoff · 150x415, 200x350, 300x240 · 2021",
           "videoUrl": "https://vimeo.com/570849916",
           "imageCredits": {
-            "03_Installation/begegnungen/01.jpg": "Kasseler Kunstverein"
+            "03_Installation/begegnungen/01.jpg": "Kasseler Kunstverein",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/installation/1786101545833_img_2341.jpeg": "Kasseler Kunstverein",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/installation/1786101638914_img_2354.jpeg": "Kasseler Kunstverein"
           },
           "imageSizes": {
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/installation/1786101545833_img_2341.jpeg": "s"
