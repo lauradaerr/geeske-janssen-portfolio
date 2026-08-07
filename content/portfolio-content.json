@@ -514,13 +514,18 @@
         {
           "slug": "untitled",
           "title": "untitled",
-          "text": "Gezeigt auf dem Sofia Underground Festival, Bulgarien, KUNST/MITTE Magdeburg; CAMP/2  – Festival für Künstlerischen Film und Performance, Halle und dem Rundgang der Hochschule für Grafik und Buchkunst Leipzig\n\nBilder/Video © Laura Därr",
+          "text": "Eine Treppe, auf ihr sitzt eine junge Frau. Diese zieht mit einer Spritze schwarzes Wasser auf und spritzt es in ihr weißes Kleid. Dieses färbt sich über die Stunden immer dunkler. Sie verfolgt für sich ihre Tätigkeit, ohne auf andere Menschen oder körperliche Beschwerden zu reagieren. So sitzt sie als lebendes Bild über Stunden an einem öffentlichen Ort, der von den Besuchern begangen werden muss.\r\n\r\nGezeigt auf dem Sofia Underground Festival, Bulgarien, KUNST/MITTE Magdeburg; CAMP/2  – Festival für Künstlerischen Film und Performance, Halle und dem Rundgang der Hochschule für Grafik und Buchkunst Leipzig",
           "images": [
             "04_Performance/untitled/01.jpg",
             "04_Performance/untitled/02.jpg",
             "04_Performance/untitled/03.jpg"
           ],
-          "description": "Durational Performance · 2016 · Dauer 18 Stunden · Eine Treppe, auf ihr sitzt eine junge Frau. Diese zieht mit einer Spritze schwarzes Wasser auf und spritzt es in ihr weißes Kleid. · Dieses färbt sich über die Stunden immer dunkler. Sie verfolgt für sich ihre Tätigkeit, ohne auf andere Menschen oder körperliche Beschwerden zu reagieren. So sitzt sie als lebendes Bild über Stunden an einem öffentlichen Ort, der von den Besuchern begangen werden muss."
+          "description": "Durational Performance · Dauer 18 Stunden · 2016",
+          "imageCredits": {
+            "04_Performance/untitled/01.jpg": "© Laura Därr",
+            "04_Performance/untitled/02.jpg": "© Laura Därr",
+            "04_Performance/untitled/03.jpg": "© Laura Därr"
+          }
         }
       ]
     }
