@@ -29,7 +29,10 @@
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1786366194587_nothing_new_essay_test_0.jpg",
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1786366195657_nothing_new_essay_test_0.jpg"
           ],
-          "description": "Film · 4:26 min · 2026"
+          "description": "Film · 4:26 min · 2026",
+          "imageSizes": {
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/video/1786366196890_nothing_new_essay_test_0.jpg": "l"
+          }
         },
         {
           "slug": "monika",
