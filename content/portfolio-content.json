@@ -132,18 +132,6 @@
           "description": "Video · 2:50 min · 2019"
         },
         {
-          "slug": "auf_die_alte_weise",
-          "title": "Auf die alte Weise\n===EN===\nOf The Old School",
-          "text": "Ein dokumentarischer Kurzfilm über eine traditionelle Hausschlachtung. Licht, Oberflächen, unterschiedlichste Strukturen, unbekannte Geräusche. Es erinnert an alte Meister und vergangene Zeiten.\n===EN===\nA short documentary film about a traditional home slaughter. Light, surfaces, a wide variety of textures, unfamiliar sounds. It evokes the old masters and times gone by.",
-          "images": [
-            "02_Video/auf_die_alte_weise/01.png",
-            "02_Video/auf_die_alte_weise/02.png",
-            "02_Video/auf_die_alte_weise/03.png"
-          ],
-          "description": "Film · 2018 · 2 min",
-          "videoUrl": "https://vimeo.com/399671824?share=copy&fl=sv&fe=ci"
-        },
-        {
           "slug": "inside_out",
           "title": "inside out\n===EN===\ninside out",
           "text": "Jeder Mensch hat Geheimnisse vor anderen und auch vor sich selbst. Diese Wahrheiten und Verletzlichkeit dadurch gilt es zu beschützen. Dies versuchen wir unter anderem durch unsere Gestik und Mimik. Jeder Mensch hat eine Art von Fassade, hinter er oder sie sich in Situationen, in denen man sich unsicher fühlt, zurückzieht, doch auch durch diese Fassade dringt manchmal etwas durch. „Inside Out“ bringt die Rezipienten dazu, sich mit Vorurteilen, der eigenen Menschenkenntnis und dem Beurteilen von kleinen Gebärden auseinanderzusetzen. Was sehen wir in unserem Gegenüber? Was wollen in den Menschen sehen?\r\n\r\nMein Interesse ist die Beschäftigung mit der eigenen Repräsentation. Durch Facebook, Instagram und Twitter zeigen und teilen wir uns ständig mit. Alles ist durchdacht, kalkuliert und inszeniert. Doch Ängste und Sorgen haben darin wenig Platz. Wir wollen scheinen! Und das von der besten Seite. Die 22 Videos zeigen kurze Momente, in denen das Innen nach außen dringt. Es sind kurze Auszüge, die Wesensveränderung der jeweiligen Person in Zeitlupe aufzeigen. Die Aufnahme verfolgt den Anfang des Gedanken und wie er sich im Gesicht regelrecht niederschlägt. Der intime Gedankengang über den eigenen Charakter, das Bild von sich selbst, überträgt sich in Teilen nach außen auf das Gesicht. Es sind Auszüge aus unterschiedlich langen Videos, in welchen die Personen die ihnen gestellte Fragen sich stillschweigend selbst beantworten. Die Rezipienten bekommen keinen Aufschluss auf die Frage über welche nachgedacht wird.\r\n\r\nVor der Wand steht in einiger Entfernung ein weißer Sockel. Dieser ähnelt in der einfachen Form einem Rednerpult. Darauf liegen mehrere Seiten, auf jeder Seite findet sich eine Frage. Im Hintergrund des Pultes hängt laufen Videos auf mehreren Flatscreens nebeneinander ab, die junge Erwachsene im gleichen reduziertem Setting zeigen. Es gibt keinen Ton. Hinter dem Pult ist eine Lücke zwischen den Videos, sodass sich die Personen, die sich hinter das Pult stellen und die Seiten durchblättern, zu einem Teil der Serie werden und sich in einer ähnlichen Situation wie die Menschen in den Videos befinden.\n===EN===\nEveryone has secrets from others—and even from themselves. These truths and the vulnerability they reveal must be protected. We try to do this, among other ways, through our gestures and facial expressions. Everyone has a kind of facade behind which they retreat in situations where they feel insecure, but sometimes something breaks through that facade. “Inside Out” prompts viewers to reflect on their prejudices, their own understanding of human nature, and how they interpret subtle gestures. What do we see in the people we interact with? What do we want to see in others?\r\n\r\nMy interest lies in exploring how we represent ourselves. Through Facebook, Instagram, and Twitter, we are constantly presenting and sharing ourselves. Everything is carefully thought out, calculated, and staged. Yet there is little room for fears and worries in all of this. We want to shine! And show our best side. The 22 videos capture brief moments when the inner self breaks through to the outside. These short clips reveal, in slow motion, the transformation of each person’s essence. The footage captures the moment a thought first arises and how it is literally reflected on the face. The intimate train of thought about one’s own character—one’s self-image—is partially projected outward onto the face. These are excerpts from videos of varying lengths in which the participants silently answer the questions posed to them. The viewers are given no indication of which question the participants are pondering.\r\n\r\nA white pedestal stands some distance away from the wall. Its simple shape resembles a lectern. Several sheets of paper lie on top of it, each with a question written on it. In the background behind the lectern, videos play on several flat-screen monitors arranged side by side, showing young adults in the same minimalist setting. There is no sound. Behind the desk, there is a gap between the videos, so that the people who stand behind the desk and flip through the pages become part of the series and find themselves in a situation similar to that of the people in the videos.",
@@ -159,6 +147,18 @@
             "02_Video/inside_out/03.png": "galerie gerken/ Andreas Baudisch, Fotograf",
             "02_Video/inside_out/04.png": "galerie gerken/ Andreas Baudisch, Fotograf"
           }
+        },
+        {
+          "slug": "auf_die_alte_weise",
+          "title": "Auf die alte Weise\n===EN===\nOf The Old School",
+          "text": "Ein dokumentarischer Kurzfilm über eine traditionelle Hausschlachtung. Licht, Oberflächen, unterschiedlichste Strukturen, unbekannte Geräusche. Es erinnert an alte Meister und vergangene Zeiten.\n===EN===\nA short documentary film about a traditional home slaughter. Light, surfaces, a wide variety of textures, unfamiliar sounds. It evokes the old masters and times gone by.",
+          "images": [
+            "02_Video/auf_die_alte_weise/01.png",
+            "02_Video/auf_die_alte_weise/02.png",
+            "02_Video/auf_die_alte_weise/03.png"
+          ],
+          "description": "Film · 2018 · 2 min",
+          "videoUrl": "https://vimeo.com/399671824?share=copy&fl=sv&fe=ci"
         },
         {
           "slug": "nothing_new",
