@@ -319,8 +319,8 @@
         },
         {
           "slug": "alle_tage",
-          "title": "Alle Tage",
-          "text": "Ausstellungsansicht Kulturhaus Müller, Ganderkesee",
+          "title": "Alle Tage\n===EN===\nDay to Day",
+          "text": "",
           "images": [
             "01_Fotografie/alle_tage/01.png",
             "01_Fotografie/alle_tage/02.png",
@@ -333,7 +333,10 @@
             "01_Fotografie/alle_tage/09.png",
             "01_Fotografie/alle_tage/10.png"
           ],
-          "description": "Fotografie · 10-teilige Serie · c-print auf Aludibond gerahmt · 2019"
+          "description": "Fotografie · 10-teilige Serie · c-print auf Aludibond gerahmt · 2019",
+          "imageCredits": {
+            "01_Fotografie/alle_tage/02.png": "Ausstellungsansicht Kulturhaus Müller, Ganderkesee"
+          }
         },
         {
           "slug": "nrw_studio_dueren",
