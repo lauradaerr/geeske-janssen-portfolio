@@ -381,13 +381,16 @@
         {
           "slug": "der_bauernhof",
           "title": "Der Bauernhof",
-          "text": "Ausstellungsansicht Stadtmuseum Oldenburg",
+          "text": "Als Kind habe ich oft auf einem Bauernhof gespielt. „Der Bauernhof“ ist eine Arbeit, die mit zwei Bildern aussagt, wie das Leben auf dem Bauernhof auf mich als Kind gewirkt hat. Absolute Schönheit in einem Augenblick und direkt im nächsten harte Arbeit und Scheiße.",
           "images": [
             "01_Fotografie/der_bauernhof/01.png",
             "01_Fotografie/der_bauernhof/02.png",
             "01_Fotografie/der_bauernhof/03.png"
           ],
-          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166"
+          "description": "Fotografie · 2014 · c-print auf Aludibond · 166 x 106 und 106 x 166",
+          "imageCredits": {
+            "01_Fotografie/der_bauernhof/02.png": "Ausstellungsansicht Stadtmuseum Oldenburg"
+          }
         },
         {
           "slug": "vater_tochter",
