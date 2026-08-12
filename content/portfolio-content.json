@@ -368,7 +368,7 @@
         {
           "slug": "schatzstrasse",
           "title": "Schatzstraße",
-          "text": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig",
+          "text": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig\n===EN===\nThe series *Schatzstraße* focuses on a newly developed residential area. These houses are located in a housing development in Leipzig, but this type of architecture can be found throughout Germany. Rock gardens, garages, window blinds. It could be a single house, but instead it shows several.\r\n\r\nA new home, designed according to one’s own wishes and ideas. Yet it feels anything but inviting. As if pragmatism had been the guiding principle behind the question, “How do I want to live?”",
           "images": [
             "01_Fotografie/schatzstrasse/01.png",
             "01_Fotografie/schatzstrasse/02.png",
@@ -376,7 +376,10 @@
             "01_Fotografie/schatzstrasse/04.png",
             "01_Fotografie/schatzstrasse/05.png"
           ],
-          "description": "Fotografie · 2017 · c-print auf Aludibond · 50x75"
+          "description": "Fotografie · 2017 · c-print auf Aludibond · 50x75",
+          "imageCredits": {
+            "01_Fotografie/schatzstrasse/03.png": "Ausstellungsansicht You Are Not Invited, Kontor80, Leipzig"
+          }
         },
         {
           "slug": "der_bauernhof",
