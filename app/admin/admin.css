@@ -138,3 +138,14 @@
 
 /* Urheber-Feld je Bild */
 .adm__credit { width: 100%; margin-top: 4px; font-size: 0.8rem; padding: 0.3rem 0.4rem; }
+
+/* Fehlermeldungen (z. B. fehlgeschlagene Bild-Uploads) */
+.adm__err {
+  margin-top: 6px;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #cc2222;
+  border-radius: 6px;
+  color: #cc2222;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}

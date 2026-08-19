@@ -1,9 +1,10 @@
 "use client";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
-import { saveWorkAction } from "@/app/admin/actions";
+import { saveWorkAction, uploadImageAction } from "@/app/admin/actions";
 import MarkdownField from "@/components/admin/MarkdownField";
 import { splitLang } from "@/lib/i18n";
+import { prepareImage, humanSize, MAX_UPLOAD_BYTES } from "@/lib/resize";
 
 const EN_MARK = /===\s*EN\s*===/i;
 /** Trennt einen gespeicherten DE/EN-Wert in zwei Felder; EN bleibt leer, wenn kein Marker da ist. */
@@ -29,7 +30,9 @@ export default function WorkForm({
   const [images, setImages] = useState<string[]>(project?.images || []);
   const [credits, setCredits] = useState<Record<string, string>>(project?.imageCredits || {});
   const [sizes, setSizes] = useState<Record<string, Size>>(project?.imageSizes || {});
-  const [fileCount, setFileCount] = useState(0);
+  const [busy, setBusy] = useState<string | null>(null);
+  const [errors, setErrors] = useState<string[]>([]);
+  const fileRef = useRef<HTMLInputElement>(null);
   const isNew = !project;
   const title = deEn(project?.title || "");
   const text = deEn(project?.text || "");
@@ -40,6 +43,46 @@ export default function WorkForm({
   const remove = (i: number) => setImages((a) => a.filter((_, j) => j !== i));
   const setCredit = (src: string, v: string) => setCredits((c) => ({ ...c, [src]: v }));
   const setSize = (src: string, v: Size) => setSizes((s) => ({ ...s, [src]: v }));
+
+  /* Bilder einzeln hochladen — im Browser auf Webgroesse verkleinert.
+   * Ein Request pro Bild, damit das 4,5-MB-Body-Limit von Vercel nie greift. */
+  async function handleFiles(list: FileList | null) {
+    const files = Array.from(list || []);
+    if (!files.length) return;
+    setErrors([]);
+    const problems: string[] = [];
+    for (let i = 0; i < files.length; i++) {
+      const original = files[i];
+      setBusy(`Bild ${i + 1} von ${files.length} wird vorbereitet …`);
+      let file = original;
+      try {
+        file = await prepareImage(original);
+      } catch {
+        // Verkleinern fehlgeschlagen — Original versuchen (Groessenpruefung unten greift)
+      }
+      if (file.size > MAX_UPLOAD_BYTES) {
+        problems.push(`${original.name}: zu gross (${humanSize(file.size)}) — bitte vorher verkleinern oder als JPEG speichern.`);
+        continue;
+      }
+      setBusy(`Bild ${i + 1} von ${files.length} wird hochgeladen … (${humanSize(file.size)})`);
+      const fd = new FormData();
+      fd.set("section", sectionKey);
+      fd.set("file", file);
+      try {
+        const res = await uploadImageAction(fd);
+        if (res.ok) {
+          setImages((a) => (a.includes(res.path) ? a : [...a, res.path]));
+        } else {
+          problems.push(`${original.name}: ${res.error}`);
+        }
+      } catch (err) {
+        problems.push(`${original.name}: ${err instanceof Error ? err.message : "Upload fehlgeschlagen."}`);
+      }
+    }
+    setBusy(null);
+    setErrors(problems);
+    if (fileRef.current) fileRef.current.value = "";
+  }
 
   return (
     <>
@@ -121,12 +164,33 @@ export default function WorkForm({
 
         <div className="adm__field">
           <label htmlFor="files">Bilder hinzufügen (mehrere möglich)</label>
-          <input id="files" name="files" type="file" accept="image/*" multiple onChange={(e) => setFileCount(e.target.files?.length || 0)} />
-          {fileCount > 0 && <span className="adm__hint">{fileCount} Datei(en) — werden ans Ende angehängt; Größe & Urheber danach einstellbar.</span>}
+          {/* Kein name= — die Dateien laufen NICHT durchs Formular, sondern werden
+              sofort einzeln hochgeladen (Vercel erlaubt nur 4,5 MB pro Request). */}
+          <input
+            id="files"
+            ref={fileRef}
+            type="file"
+            accept="image/*"
+            multiple
+            disabled={!!busy}
+            onChange={(e) => handleFiles(e.target.files)}
+          />
+          <span className="adm__hint">
+            Werden beim Auswählen hochgeladen und ans Ende angehängt (automatisch auf Webgröße
+            verkleinert). Größe &amp; Urheber danach einstellbar.
+          </span>
+          {busy && <span className="adm__hint" role="status">{busy}</span>}
+          {errors.length > 0 && (
+            <div className="adm__err" role="alert">
+              {errors.map((m, i) => <div key={i}>{m}</div>)}
+            </div>
+          )}
         </div>
 
         <div className="adm__actions">
-          <button className="btn btn--primary" type="submit">Speichern</button>
+          <button className="btn btn--primary" type="submit" disabled={!!busy}>
+            {busy ? "Bitte warten …" : "Speichern"}
+          </button>
           <Link className="btn" href="/admin/works">Abbrechen</Link>
         </div>
       </form>

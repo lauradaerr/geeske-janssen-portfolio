@@ -11,10 +11,13 @@ const nextConfig = {
   // ausgeliefert. Wenn du spaeter auf next/image + Optimierung umstellst,
   // hier ggf. remotePatterns / formats konfigurieren.
   experimental: {
-    // Bild-Uploads im CMS koennen mehrere MB gross sein. Standard ist 1 MB,
-    // was bei Fotos zum "client-side exception" fuehrt - daher anheben.
+    // Bild-Uploads im CMS: der Next-Standard von 1 MB ist zu klein.
+    // WICHTIG: Vercel begrenzt den Request-Body von Server-Funktionen auf
+    // 4,5 MB - das laesst sich hier NICHT hochsetzen. Ein hoeherer Wert wirkt
+    // nur lokal. Darum werden Bilder im Browser verkleinert (lib/resize.ts)
+    // und einzeln hochgeladen (uploadImageAction).
     serverActions: {
-      bodySizeLimit: "50mb",
+      bodySizeLimit: "6mb",
     },
   },
 };

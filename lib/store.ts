@@ -57,6 +57,13 @@ const readGitHubCached = unstable_cache(
     if (r.ok) {
       const j = await r.json();
       if (j.content) return JSON.parse(Buffer.from(j.content, "base64").toString("utf8")) as Content;
+      // Ab 1 MB liefert die Contents-API kein "content" mehr — dann ueber raw laden,
+      // sonst faellt der ganze Inhalt still auf den Seed zurueck.
+      const raw = await fetch(
+        `https://raw.githubusercontent.com/${GH_REPO}/${GH_BRANCH}/${CONTENT_FILE}`,
+        { headers: GH_HEADERS, cache: "no-store" }
+      );
+      if (raw.ok) return JSON.parse(await raw.text()) as Content;
     }
     return SEED;
   },

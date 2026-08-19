@@ -20,6 +20,28 @@ export async function logoutAction() {
   redirect("/admin/login");
 }
 
+export type UploadResult = { ok: true; path: string } | { ok: false; error: string };
+
+/** Laedt EIN Bild hoch und gibt dessen Pfad/URL zurueck.
+ *  Absichtlich getrennt vom Formular-Speichern: auf Vercel darf ein Request-Body
+ *  maximal 4,5 MB gross sein (Plattform-Limit, nicht durch bodySizeLimit aenderbar).
+ *  Ein Request pro Bild bleibt sicher darunter — und ein fehlgeschlagenes Bild
+ *  kostet nicht das ganze Formular. */
+export async function uploadImageAction(formData: FormData): Promise<UploadResult> {
+  await requireAuth();
+  const section = String(formData.get("section") || "");
+  const file = formData.get("file");
+  if (!(file instanceof File) || file.size === 0) return { ok: false, error: "Keine Datei empfangen." };
+  if (!file.type.startsWith("image/")) return { ok: false, error: "Das ist keine Bilddatei." };
+  if (file.size > 4_400_000) return { ok: false, error: "Bild zu gross fuer den Upload (max. ca. 4 MB)." };
+  try {
+    const path = await saveImage(section, file);
+    return { ok: true, path };
+  } catch (err) {
+    return { ok: false, error: err instanceof Error ? err.message : "Upload fehlgeschlagen." };
+  }
+}
+
 export async function saveWorkAction(formData: FormData) {
   await requireAuth();
   const section = String(formData.get("section") || "");
@@ -41,12 +63,9 @@ export async function saveWorkAction(formData: FormData) {
   let sizesRaw: Record<string, string> = {};
   try { sizesRaw = JSON.parse(String(formData.get("sizes") || "{}")); } catch { sizesRaw = {}; }
 
-  const uploaded: string[] = [];
-  for (const f of formData.getAll("files")) {
-    if (f instanceof File && f.size > 0) uploaded.push(await saveImage(section, f));
-  }
-
-  const images = [...existing, ...uploaded];
+  // Bilder wurden bereits einzeln via uploadImageAction hochgeladen und stehen
+  // als Pfade in "existing" — hier fliessen keine Dateien mehr durch.
+  const images = existing;
   const imageCredits: Record<string, string> = {};
   for (const p of images) { const c = (creditsRaw[p] || "").trim(); if (c) imageCredits[p] = c; }
   const imageSizes: Record<string, "s" | "m" | "l"> = {};

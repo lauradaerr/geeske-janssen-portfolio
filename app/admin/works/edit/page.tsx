@@ -3,6 +3,10 @@ import { requireAuth } from "@/lib/auth";
 import { readContent } from "@/lib/store";
 import WorkForm from "@/components/admin/WorkForm";
 
+/* Bild-Uploads committen ins GitHub-Repo — das darf etwas dauern.
+ * (Vercel-Standard sind 10 s; Hobby-Plan erlaubt bis 60 s.) */
+export const maxDuration = 60;
+
 export default async function EditWorkPage({
   searchParams,
 }: {
