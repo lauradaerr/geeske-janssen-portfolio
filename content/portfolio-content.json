@@ -318,6 +318,20 @@
           "description": "Fotografie · 3-teilige Serie · c-print auf Aludibond · gerahmt · 80x120 ·  2020"
         },
         {
+          "slug": "korperbilder",
+          "title": "KÖRPERBILDER\n===EN===\nBody Images",
+          "text": "*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n„Körperbilder“ ist eine Serie, die die Verschränkung von Körperlichkeit und Kapitalismus untersucht. Ausgangspunkt sind Aufnahmen von Schaufensterpuppen aus dem Keller eines Kaufhauses – künstliche Körper, geschaffen, um Begehren zu lenken und Identifikation zu erzeugen. Die Bilder sind auf Thermopapier gedruckt. Fragiles Material, das sonst für Kassenbons verwendet wird. So verbindet sich der Blick auf den Körper unmittelbar mit dem Akt des Konsums.\r\n\r\nDie Puppenkörper werden in den Bildern zerteilt, neu zusammengesetzt und verdichten sich zu einer anonymen Masse aus Form, Fragment und Struktur. In ihrer Gleichförmigkeit wirken sie zugleich zerbrechlich und hart. Sie sind geschaffen, um Kleidung zu tragen, die Normen, Erwartungen und ästhetische Ideale transportiert – Ideale, an denen reale Körper scheitern oder zerbrechen können.\n===EN===\n*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n“Body Images” is a series that examines the entanglement of embodiment and capitalism. It begins with shots of storefront mannequins from the basement of a department store. Artificial bodies created to steer desire and generate identification. The images are printed on thermal paper. Fragile material that is typically used for receipts. Thus, the gaze upon the body is immediately linked to the act of consumption.\r\n\r\nThe mannequin bodies in the images are cut apart, reassembled, and condensed into an anonymous mass of form, fragment, and structure. In their uniformity they appear both fragile and hard. They are made to wear clothes that carry norms, expectations, and aesthetic ideals. Ideals that real bodies may fail to meet or break under.",
+          "images": [
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214087530_dscf8278_kopie.jpg",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214091123_dscf1756.jpg",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214089257_dscf8295_kopie_2.jpg",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214220945_dscf1760.jpg",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214230278_dscf8291.jpg",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214225631_dscf2290.jpg"
+          ],
+          "description": "12-teilige Serie · Thermopapier · verschiedene Größen · 2025"
+        },
+        {
           "slug": "alle_tage",
           "title": "Alle Tage\n===EN===\nDay to Day",
           "text": "„Alle Tage“ ist eine Serie über das alltägliche Aufeinandertreffen von Mensch und Natur. Ob als Keimling im Garten, Nutztier für Milch oder Fleisch oder auch nur zur Unterhaltung im Zoo. Die Fotografien wurden im Kleingarten, Zooanlage, Bauernhof, Botanischen Garten und bei einer privaten Schlachtung aufgenommen.\n===EN===\n\"Day to Day\" is a series about the everyday meeting of people and nature. Whether as a seedling in the garden, livestock for milk or meat, or simply for entertainment at the zoo. The photographs were taken in a community garden, a zoo facility, a farm, a botanical garden, and at a private slaughterhouse.",
@@ -337,20 +351,6 @@
           "imageCredits": {
             "01_Fotografie/alle_tage/02.png": "Ausstellungsansicht Kulturhaus Müller, Ganderkesee"
           }
-        },
-        {
-          "slug": "korperbilder",
-          "title": "KÖRPERBILDER\n===EN===\nBody Images",
-          "text": "*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n„Körperbilder“ ist eine Serie, die die Verschränkung von Körperlichkeit und Kapitalismus untersucht. Ausgangspunkt sind Aufnahmen von Schaufensterpuppen aus dem Keller eines Kaufhauses – künstliche Körper, geschaffen, um Begehren zu lenken und Identifikation zu erzeugen. Die Bilder sind auf Thermopapier gedruckt. Fragiles Material, das sonst für Kassenbons verwendet wird. So verbindet sich der Blick auf den Körper unmittelbar mit dem Akt des Konsums.\r\n\r\nDie Puppenkörper werden in den Bildern zerteilt, neu zusammengesetzt und verdichten sich zu einer anonymen Masse aus Form, Fragment und Struktur. In ihrer Gleichförmigkeit wirken sie zugleich zerbrechlich und hart. Sie sind geschaffen, um Kleidung zu tragen, die Normen, Erwartungen und ästhetische Ideale transportiert – Ideale, an denen reale Körper scheitern oder zerbrechen können.\n===EN===\n*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n“Body Images” is a series that examines the entanglement of embodiment and capitalism. It begins with shots of storefront mannequins from the basement of a department store. Artificial bodies created to steer desire and generate identification. The images are printed on thermal paper. Fragile material that is typically used for receipts. Thus, the gaze upon the body is immediately linked to the act of consumption.\r\n\r\nThe mannequin bodies in the images are cut apart, reassembled, and condensed into an anonymous mass of form, fragment, and structure. In their uniformity they appear both fragile and hard. They are made to wear clothes that carry norms, expectations, and aesthetic ideals. Ideals that real bodies may fail to meet or break under.",
-          "images": [
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214087530_dscf8278_kopie.jpg",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214091123_dscf1756.jpg",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214089257_dscf8295_kopie_2.jpg",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214220945_dscf1760.jpg",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214230278_dscf8291.jpg",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214225631_dscf2290.jpg"
-          ],
-          "description": "12-teilige Serie · Thermopapier · verschiedene Größen · 2025"
         },
         {
           "slug": "nrw_studio_dueren",
