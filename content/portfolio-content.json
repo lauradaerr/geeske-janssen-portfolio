@@ -357,18 +357,6 @@
           }
         },
         {
-          "slug": "all_inclusive",
-          "title": "ALL INCLUSIVE\n===EN===\nALL INCLUSIVE",
-          "text": "„ALL INCLUSIVE“ zeigt Details in einer Hotelanlage in Scharm asch-Schaich, Ägypten. \r\n\r\nEs wird mit 63 Wasserrutschen, allabendlichen Entertainment und Restaurants für alle Geschmäcker geworben. Alles ist möglich. Der Tourist ist König. \r\n\r\nDas Unmögliche wird möglich. Unendlicher Spaß. Perfekte Umgebung. Der einzelne Mensch als Mittelpunkt.\n===EN===\n“ALL INCLUSIVE” shows details from a hotel resort in Sharm El Sheikh, Egypt. \r\n\r\nIt is advertised with 63 water slides, nightly entertainment, and restaurants to suit every taste. Everything is possible. The tourist is king. \r\n\r\nThe impossible becomes possible. Endless fun. Perfect surroundings. The individual at the center of it all.",
-          "images": [
-            "01_Fotografie/all_inclusive/01.png",
-            "01_Fotografie/all_inclusive/02.png",
-            "01_Fotografie/all_inclusive/03.png",
-            "01_Fotografie/all_inclusive/04.png"
-          ],
-          "description": "Fotografie · 2017 · c-prints · 50x75 cm · 2017"
-        },
-        {
           "slug": "korperbilder",
           "title": "KÖRPERBILDER\n===EN===\nBody Images",
           "text": "*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n„Körperbilder“ ist eine Serie, die die Verschränkung von Körperlichkeit und Kapitalismus untersucht. Ausgangspunkt sind Aufnahmen von Schaufensterpuppen aus dem Keller eines Kaufhauses – künstliche Körper, geschaffen, um Begehren zu lenken und Identifikation zu erzeugen. Die Bilder sind auf Thermopapier gedruckt. Fragiles Material, das sonst für Kassenbons verwendet wird. So verbindet sich der Blick auf den Körper unmittelbar mit dem Akt des Konsums.\r\n\r\nDie Puppenkörper werden in den Bildern zerteilt, neu zusammengesetzt und verdichten sich zu einer anonymen Masse aus Form, Fragment und Struktur. In ihrer Gleichförmigkeit wirken sie zugleich zerbrechlich und hart. Sie sind geschaffen, um Kleidung zu tragen, die Normen, Erwartungen und ästhetische Ideale transportiert – Ideale, an denen reale Körper scheitern oder zerbrechen können.\n===EN===\n*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n“Body Images” is a series that examines the entanglement of embodiment and capitalism. It begins with shots of storefront mannequins from the basement of a department store. Artificial bodies created to steer desire and generate identification. The images are printed on thermal paper. Fragile material that is typically used for receipts. Thus, the gaze upon the body is immediately linked to the act of consumption.\r\n\r\nThe mannequin bodies in the images are cut apart, reassembled, and condensed into an anonymous mass of form, fragment, and structure. In their uniformity they appear both fragile and hard. They are made to wear clothes that carry norms, expectations, and aesthetic ideals. Ideals that real bodies may fail to meet or break under.",
@@ -381,6 +369,18 @@
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214225631_dscf2290.jpg"
           ],
           "description": "12-teilige Serie · Thermopapier · verschiedene Größen · 2025"
+        },
+        {
+          "slug": "all_inclusive",
+          "title": "ALL INCLUSIVE\n===EN===\nALL INCLUSIVE",
+          "text": "„ALL INCLUSIVE“ zeigt Details in einer Hotelanlage in Scharm asch-Schaich, Ägypten. \r\n\r\nEs wird mit 63 Wasserrutschen, allabendlichen Entertainment und Restaurants für alle Geschmäcker geworben. Alles ist möglich. Der Tourist ist König. \r\n\r\nDas Unmögliche wird möglich. Unendlicher Spaß. Perfekte Umgebung. Der einzelne Mensch als Mittelpunkt.\n===EN===\n“ALL INCLUSIVE” shows details from a hotel resort in Sharm El Sheikh, Egypt. \r\n\r\nIt is advertised with 63 water slides, nightly entertainment, and restaurants to suit every taste. Everything is possible. The tourist is king. \r\n\r\nThe impossible becomes possible. Endless fun. Perfect surroundings. The individual at the center of it all.",
+          "images": [
+            "01_Fotografie/all_inclusive/01.png",
+            "01_Fotografie/all_inclusive/02.png",
+            "01_Fotografie/all_inclusive/03.png",
+            "01_Fotografie/all_inclusive/04.png"
+          ],
+          "description": "Fotografie · 2017 · c-prints · 50x75 cm · 2017"
         },
         {
           "slug": "schatzstrasse",
