@@ -382,20 +382,6 @@
           "description": "Fotografie · c-print auf Aludibond · 50x75 · 2017"
         },
         {
-          "slug": "der_bauernhof",
-          "title": "Der Bauernhof\n===EN===\nThe Farm",
-          "text": "Als Kind habe ich oft auf einem Bauernhof gespielt. „Der Bauernhof“ ist eine Arbeit, die mit zwei Bildern aussagt, wie das Leben auf dem Bauernhof auf mich als Kind gewirkt hat. \r\n\r\nAbsolute Schönheit in einem Augenblick und direkt im nächsten harte Arbeit und Scheiße.\n===EN===\n“The Farm” is a work consisting of two images that convey how life on the farm felt to me as a child. I often played on a farm when I was growing up. \r\n\r\nIn one moment, there was absolute beauty; in the very next, hard work and shit.",
-          "images": [
-            "01_Fotografie/der_bauernhof/01.png",
-            "01_Fotografie/der_bauernhof/02.png",
-            "01_Fotografie/der_bauernhof/03.png"
-          ],
-          "description": "Fotografie · c-print auf Aludibond · 166 x 106 und 106 x 166 · 2015",
-          "imageCredits": {
-            "01_Fotografie/der_bauernhof/02.png": "Ausstellungsansicht Stadtmuseum Oldenburg"
-          }
-        },
-        {
           "slug": "korperbilder",
           "title": "KÖRPERBILDER\n===EN===\nBody Images",
           "text": "*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n„Körperbilder“ ist eine Serie, die die Verschränkung von Körperlichkeit und Kapitalismus untersucht. Ausgangspunkt sind Aufnahmen von Schaufensterpuppen aus dem Keller eines Kaufhauses – künstliche Körper, geschaffen, um Begehren zu lenken und Identifikation zu erzeugen. Die Bilder sind auf Thermopapier gedruckt. Fragiles Material, das sonst für Kassenbons verwendet wird. So verbindet sich der Blick auf den Körper unmittelbar mit dem Akt des Konsums.\r\n\r\nDie Puppenkörper werden in den Bildern zerteilt, neu zusammengesetzt und verdichten sich zu einer anonymen Masse aus Form, Fragment und Struktur. In ihrer Gleichförmigkeit wirken sie zugleich zerbrechlich und hart. Sie sind geschaffen, um Kleidung zu tragen, die Normen, Erwartungen und ästhetische Ideale transportiert – Ideale, an denen reale Körper scheitern oder zerbrechen können.\n===EN===\n*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n“Body Images” is a series that examines the entanglement of embodiment and capitalism. It begins with shots of storefront mannequins from the basement of a department store. Artificial bodies created to steer desire and generate identification. The images are printed on thermal paper. Fragile material that is typically used for receipts. Thus, the gaze upon the body is immediately linked to the act of consumption.\r\n\r\nThe mannequin bodies in the images are cut apart, reassembled, and condensed into an anonymous mass of form, fragment, and structure. In their uniformity they appear both fragile and hard. They are made to wear clothes that carry norms, expectations, and aesthetic ideals. Ideals that real bodies may fail to meet or break under.",
@@ -408,6 +394,20 @@
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214225631_dscf2290.jpg"
           ],
           "description": "12-teilige Serie · Thermopapier · verschiedene Größen · 2025"
+        },
+        {
+          "slug": "der_bauernhof",
+          "title": "Der Bauernhof\n===EN===\nThe Farm",
+          "text": "Als Kind habe ich oft auf einem Bauernhof gespielt. „Der Bauernhof“ ist eine Arbeit, die mit zwei Bildern aussagt, wie das Leben auf dem Bauernhof auf mich als Kind gewirkt hat. \r\n\r\nAbsolute Schönheit in einem Augenblick und direkt im nächsten harte Arbeit und Scheiße.\n===EN===\n“The Farm” is a work consisting of two images that convey how life on the farm felt to me as a child. I often played on a farm when I was growing up. \r\n\r\nIn one moment, there was absolute beauty; in the very next, hard work and shit.",
+          "images": [
+            "01_Fotografie/der_bauernhof/01.png",
+            "01_Fotografie/der_bauernhof/02.png",
+            "01_Fotografie/der_bauernhof/03.png"
+          ],
+          "description": "Fotografie · c-print auf Aludibond · 166 x 106 und 106 x 166 · 2015",
+          "imageCredits": {
+            "01_Fotografie/der_bauernhof/02.png": "Ausstellungsansicht Stadtmuseum Oldenburg"
+          }
         },
         {
           "slug": "vater_tochter",
