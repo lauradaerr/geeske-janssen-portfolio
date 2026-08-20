@@ -270,17 +270,6 @@
           "description": "Publikation · Hardcover · 200 Seiten · ISBN 978-3-00-072118-2 · Auflage 100 Stück · Hg. Ensemble 23"
         },
         {
-          "slug": "huellen",
-          "title": "Hüllen\n===EN===\nShells",
-          "text": "*Denkmal: Im engeren Sinne bezeichnet der Begriff Denkmal plastische Werke, die zur Wahrung des Andenkens an eine Person, eine Personengruppe oder ein historisches\r\nEreignis errichtet wurden. Mit einem Denkmal werden im öffentlichen Raum Gedenkorte geschaffen oder Gedächtnisorte markiert. Denkmäler können je nach Anlass unterschiedliche Erinnerungshaltungen provozieren*.\r\n\r\n\r\n„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.\n===EN===\nMonument: In the narrow sense, the term “monument” refers to sculptural works erected to preserve the memory of a person, a group of people, or a historical\r\nevent. Monuments are used in public spaces to create memorial sites or to mark places of remembrance. Depending on the occasion, monuments can evoke different attitudes toward remembrance.\r\n\r\n\r\n“Shells” explores the purpose and significance of monuments. An image of a collapsed bouncy castle is projected onto the Monument to the Battle of the Nations in Leipzig.",
-          "images": [
-            "01_Fotografie/huellen/01.jpg",
-            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1785839016701_huellen_1_skaliert_kopie.jpg",
-            "01_Fotografie/huellen/02.jpg"
-          ],
-          "description": "Projektion · Fotografie · 91x130 Meter · 2021"
-        },
-        {
           "slug": "korperbilder",
           "title": "KÖRPERBILDER\n===EN===\nBody Images",
           "text": "*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n„Körperbilder“ ist eine Serie, die die Verschränkung von Körperlichkeit und Kapitalismus untersucht. Ausgangspunkt sind Aufnahmen von Schaufensterpuppen aus dem Keller eines Kaufhauses – künstliche Körper, geschaffen, um Begehren zu lenken und Identifikation zu erzeugen. Die Bilder sind auf Thermopapier gedruckt. Fragiles Material, das sonst für Kassenbons verwendet wird. So verbindet sich der Blick auf den Körper unmittelbar mit dem Akt des Konsums.\r\n\r\nDie Puppenkörper werden in den Bildern zerteilt, neu zusammengesetzt und verdichten sich zu einer anonymen Masse aus Form, Fragment und Struktur. In ihrer Gleichförmigkeit wirken sie zugleich zerbrechlich und hart. Sie sind geschaffen, um Kleidung zu tragen, die Normen, Erwartungen und ästhetische Ideale transportiert – Ideale, an denen reale Körper scheitern oder zerbrechen können.\n===EN===\n*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n“Body Images” is a series that examines the entanglement of embodiment and capitalism. It begins with shots of storefront mannequins from the basement of a department store. Artificial bodies created to steer desire and generate identification. The images are printed on thermal paper. Fragile material that is typically used for receipts. Thus, the gaze upon the body is immediately linked to the act of consumption.\r\n\r\nThe mannequin bodies in the images are cut apart, reassembled, and condensed into an anonymous mass of form, fragment, and structure. In their uniformity they appear both fragile and hard. They are made to wear clothes that carry norms, expectations, and aesthetic ideals. Ideals that real bodies may fail to meet or break under.",
@@ -293,6 +282,17 @@
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214225631_dscf2290.jpg"
           ],
           "description": "12-teilige Serie · Thermopapier · verschiedene Größen · 2025"
+        },
+        {
+          "slug": "huellen",
+          "title": "Hüllen\n===EN===\nShells",
+          "text": "*Denkmal: Im engeren Sinne bezeichnet der Begriff Denkmal plastische Werke, die zur Wahrung des Andenkens an eine Person, eine Personengruppe oder ein historisches\r\nEreignis errichtet wurden. Mit einem Denkmal werden im öffentlichen Raum Gedenkorte geschaffen oder Gedächtnisorte markiert. Denkmäler können je nach Anlass unterschiedliche Erinnerungshaltungen provozieren*.\r\n\r\n\r\n„Hüllen“ beschäftigt sich mit dem Nutzen und Sinn von Denkmälern. Auf das Leipziger Völkerschlachtdenkmal ist eine zusammengefallene Hüpfburg projiziert.\n===EN===\nMonument: In the narrow sense, the term “monument” refers to sculptural works erected to preserve the memory of a person, a group of people, or a historical\r\nevent. Monuments are used in public spaces to create memorial sites or to mark places of remembrance. Depending on the occasion, monuments can evoke different attitudes toward remembrance.\r\n\r\n\r\n“Shells” explores the purpose and significance of monuments. An image of a collapsed bouncy castle is projected onto the Monument to the Battle of the Nations in Leipzig.",
+          "images": [
+            "01_Fotografie/huellen/01.jpg",
+            "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1785839016701_huellen_1_skaliert_kopie.jpg",
+            "01_Fotografie/huellen/02.jpg"
+          ],
+          "description": "Projektion · Fotografie · 91x130 Meter · 2021"
         },
         {
           "slug": "lean_on_me",
