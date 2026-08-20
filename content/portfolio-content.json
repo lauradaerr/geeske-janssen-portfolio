@@ -248,19 +248,6 @@
           "description": "Publikation · 196-Seiten · Auflage 100 · 17 cm x 24 cm · 2022"
         },
         {
-          "slug": "on_the_floor",
-          "title": "on the floor\n===EN===\non the floor",
-          "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.\n===EN===\nThe work *on the floor* explores the observations that can be made by looking at the ground in Las Vegas, Nevada. The city’s floors reveal more than its dazzling lights and glamorous surfaces; they expose another, perhaps more truthful, face of the city.\r\n\r\nThe photographs depict a variety of floor surfaces and patterns, from vomit and marble to colorful carpets that absorb the dirt and traces of excess. They bring together contrasts such as wealth and poverty, concrete and polished marble, day and night.\r\n\r\nThese surfaces and patterns reflect the diversity of the city and offer a different perspective on the many contrasting aspects of Las Vegas.",
-          "images": [
-            "01_Fotografie/on_the_floor/01.png",
-            "01_Fotografie/on_the_floor/02.jpg",
-            "01_Fotografie/on_the_floor/03.jpg",
-            "01_Fotografie/on_the_floor/04.jpg",
-            "01_Fotografie/on_the_floor/05.jpg"
-          ],
-          "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
-        },
-        {
           "slug": "korperbilder",
           "title": "KÖRPERBILDER\n===EN===\nBody Images",
           "text": "*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n„Körperbilder“ ist eine Serie, die die Verschränkung von Körperlichkeit und Kapitalismus untersucht. Ausgangspunkt sind Aufnahmen von Schaufensterpuppen aus dem Keller eines Kaufhauses – künstliche Körper, geschaffen, um Begehren zu lenken und Identifikation zu erzeugen. Die Bilder sind auf Thermopapier gedruckt. Fragiles Material, das sonst für Kassenbons verwendet wird. So verbindet sich der Blick auf den Körper unmittelbar mit dem Akt des Konsums.\r\n\r\nDie Puppenkörper werden in den Bildern zerteilt, neu zusammengesetzt und verdichten sich zu einer anonymen Masse aus Form, Fragment und Struktur. In ihrer Gleichförmigkeit wirken sie zugleich zerbrechlich und hart. Sie sind geschaffen, um Kleidung zu tragen, die Normen, Erwartungen und ästhetische Ideale transportiert – Ideale, an denen reale Körper scheitern oder zerbrechen können.\n===EN===\n*But I'll try anything. If you told me that I literally had to eat poop every single day and I would look younger, I might. I just might.\r\n Kim Kardashian*\r\n\r\n“Body Images” is a series that examines the entanglement of embodiment and capitalism. It begins with shots of storefront mannequins from the basement of a department store. Artificial bodies created to steer desire and generate identification. The images are printed on thermal paper. Fragile material that is typically used for receipts. Thus, the gaze upon the body is immediately linked to the act of consumption.\r\n\r\nThe mannequin bodies in the images are cut apart, reassembled, and condensed into an anonymous mass of form, fragment, and structure. In their uniformity they appear both fragile and hard. They are made to wear clothes that carry norms, expectations, and aesthetic ideals. Ideals that real bodies may fail to meet or break under.",
@@ -273,6 +260,19 @@
             "https://raw.githubusercontent.com/lauradaerr/geeske-janssen-portfolio/main/public/works/uploads/fotografie/1787214225631_dscf2290.jpg"
           ],
           "description": "12-teilige Serie · Thermopapier · verschiedene Größen · 2025"
+        },
+        {
+          "slug": "on_the_floor",
+          "title": "on the floor\n===EN===\non the floor",
+          "text": "Die Arbeit \"on the floor\" bezieht sich auf die Beobachtungen, die man machen kann, wenn man auf den Boden in Las Vegas (USA) schaut. Die Böden zeigen mehr über die Stadt als nur die flimmernden Lichter und enthüllen das wahre Gesicht der Stadt. Die Fotografien zeigen die verschiedenen Bodenmuster, wie auch Erbrochenes und Marmor, bunte Teppichmuster, die den Dreck des Exzesses aufnehmen, Arm und Reich, Beton und geputzter Marmor, Tag und Nacht. Diese Bodenmuster spiegeln die Vielfalt der Stadt wider und vermitteln eine andere Sichtweise auf die verschiedenen Aspekte von Las Vegas.\n===EN===\nThe work *on the floor* explores the observations that can be made by looking at the ground in Las Vegas, Nevada. The city’s floors reveal more than its dazzling lights and glamorous surfaces; they expose another, perhaps more truthful, face of the city.\r\n\r\nThe photographs depict a variety of floor surfaces and patterns, from vomit and marble to colorful carpets that absorb the dirt and traces of excess. They bring together contrasts such as wealth and poverty, concrete and polished marble, day and night.\r\n\r\nThese surfaces and patterns reflect the diversity of the city and offer a different perspective on the many contrasting aspects of Las Vegas.",
+          "images": [
+            "01_Fotografie/on_the_floor/01.png",
+            "01_Fotografie/on_the_floor/02.jpg",
+            "01_Fotografie/on_the_floor/03.jpg",
+            "01_Fotografie/on_the_floor/04.jpg",
+            "01_Fotografie/on_the_floor/05.jpg"
+          ],
+          "description": "on the floor · Fotografie, 52-teilige Serie · 10,2 cm x 15,2 cm (4x6 inch)"
         },
         {
           "slug": "leben_und_tod",
